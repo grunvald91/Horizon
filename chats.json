@@ -1,4 +1,9 @@
 {
  "offset": 0,
- "chats": {}
+ "chats": {
+  "@grunvaldlab_news": {
+   "title": "grunvaldlab_news",
+   "type": "channel"
+  }
+ }
 }
