@@ -5,6 +5,9 @@ on:
     # Время в UTC. 02:17 UTC = 05:17 МСК: к 9:00 очередь точно готова, даже если GitHub опоздает.
     - cron: '17 2 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/horizon-collect.yml', 'data/config.telegram.json']   # перезапуск при смене настроек
 
 concurrency:
   group: horizon-queue        # общий замок с публикацией
@@ -53,7 +56,9 @@ jobs:
       - name: Run Horizon (сбор и сортировка)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: uv run horizon --hours 24
+        run: |
+          set -o pipefail
+          uv run horizon --hours 24 -l INFO 2>&1 | tee /tmp/horizon.log
 
       - name: Build today's queue
         env:
@@ -65,6 +70,9 @@ jobs:
             rm -rf queue && mkdir queue && git -C queue init -q -b news-queue
           fi
           python3 scripts/telegram_post.py build-queue queue/queue.json
+          # для диагностики: последний дайджест и хвост лога
+          cp "$(ls data/summaries/*-ru.md | tail -1)" queue/last-summary.md || true
+          tail -n 400 /tmp/horizon.log > queue/last-run.log || true
 
       - name: Save queue
         env:
@@ -73,7 +81,7 @@ jobs:
           cd queue
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add queue.json
+          git add -A
           git diff --cached --quiet && exit 0
           git commit -q -m "Очередь новостей $(date -u +%F)"
           git push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:news-queue
