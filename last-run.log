@@ -1,0 +1,400 @@
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:17] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:20] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:34] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:57] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:36:59] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:37:06] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:37:27] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:37:41] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:37:43] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:37:52] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:38:16] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:38:22] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:38:36] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:38:50] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:39:05] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:39:27] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:39:44] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:39:47] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:40:22] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:40:23] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:40:46] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:40:54] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:41:10] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.399087       
+                             seconds                                            
+[10/17/26 19:41:27] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:41:31] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:41:59] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:42:15] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:42:22] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:42:40] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:42:44] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:43:13] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:43:19] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:43:22] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:43:39] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:43:48] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:00] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:16] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:25] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:32] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:42] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:44:51] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:45:21] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:45:24] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:45:33] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:45:42] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:46:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:46:33] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:46:47] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:46:49] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:46:52] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:47:22] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+
+🤖 Analyzed 35 items with AI
+
+⭐️ Selected 9 items with profile filters
+
+[10/17/26 19:47:49] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+      • hackernews/albinstman: 1
+      • hackernews/theykk: 1
+      • reddit/r/MachineLearning: 2
+      • rss/CNBC Finance: 1
+      • rss/Simon Willison: 1
+      • telegram/@zaihuapd: 3
+
+📚 Enriching with background knowledge...
+[10/17/26 19:49:14] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:49:19] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:49:28] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:50:05] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    WARNING  Impersonate 'chrome_108' does not exist, using     
+                             'random'                                           
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=U6GHz%20spectrum%20b
+                             and%20China%20Mobile%20Hong%20Kong%20Macau%20operat
+                             ors%20deployment 200                               
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=U6GHz+sp
+                             ectrum+band+China+Mobile+Hong+Kong+Macau+operators+
+                             deployment&limit=1 200                             
+[10/17/26 19:50:06] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=U6GHz+spectrum+band
+                             +China+Mobile+Hong+Kong+Macau+operators+deployment'
+                             , 403,                                             
+                             'https://www.mojeek.com/search?q=U6GHz+spectrum+ban
+                             d+China+Mobile+Hong+Kong+Macau+operators+deployment
+                             ', 'Forbidden')")                                  
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=dCrZVn_S0K2z8Q
+                             KONLzR1zuv;_ylu=g63QBndAxVuQ96HzRNNzhw86AurHx_81VUS
+                             GRFms22KBHJg?p=U6GHz+spectrum+band+China+Mobile+Hon
+                             g+Kong+Macau+operators+deployment 200              
+[10/17/26 19:50:07] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=U6GHz%20impact%20on%
+                             205G-A%20and%206G%20evolution%20Hong%20Kong%20Macau
+                              200                                               
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=U6GHz+im
+                             pact+on+5G-A+and+6G+evolution+Hong+Kong+Macau&limit
+                             =1 200                                             
+[10/17/26 19:50:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:50:09] INFO     response:                                          
+                             https://yandex.com/search/site/?text=U6GHz+impact+o
+                             n+5G-A+and+6G+evolution+Hong+Kong+Macau&web=1&searc
+                             hid=6976397 200                                    
+[10/17/26 19:50:19] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:50:55] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:51:19] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:51:35] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:52:24] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:52:42] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:53:16] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:53:41] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.494729       
+                             seconds                                            
+[10/17/26 19:54:02] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:54:32] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:54:55] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:54:56] INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=EpochGo+
+                             local-first+multi-agent+AutoML+Ollama+Scikit-Learn+
+                             AryanDinakaran&limit=1 200                         
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=EpochGo%20local-firs
+                             t%20multi-agent%20AutoML%20Ollama%20Scikit-Learn%20
+                             AryanDinakaran 200                                 
+                    INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=EpochGo+local-fir
+                             st+multi-agent+AutoML+Ollama+Scikit-Learn+AryanDina
+                             karan&source=web', 429,                            
+                             'https://search.brave.com/search?q=EpochGo+local-fi
+                             rst+multi-agent+AutoML+Ollama+Scikit-Learn+AryanDin
+                             akaran&source=web', 'Too Many Requests')")         
+[10/17/26 19:54:57] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=EKXkBO9v3Di0JO
+                             -Nsc0KGq7L;_ylu=LtswUOyXJxV3irRbgJZ2LrgxHk4_jwPF_Bt
+                             Jo5pKhSdbGeE?p=EpochGo+local-first+multi-agent+Auto
+                             ML+Ollama+Scikit-Learn+AryanDinakaran 200          
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=EpochGo%3A%20Local-f
+                             irst%20multi-agent%20AutoML%20engine%20using%20offl
+                             ine%20Ollama%20LLMs%20reddit 200                   
+[10/17/26 19:54:58] INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=EpochGo%
+                             3A+Local-first+multi-agent+AutoML+engine+using+offl
+                             ine+Ollama+LLMs+reddit&limit=1 200                 
+[10/17/26 19:54:59] INFO     response:                                          
+                             https://yandex.com/search/site/?text=EpochGo%3A+Loc
+                             al-first+multi-agent+AutoML+engine+using+offline+Ol
+                             lama+LLMs+reddit&web=1&searchid=7440609 200        
+[10/17/26 19:55:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:55:50] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Elon%20Musk%20X%20ad
+                             s%20aesthetic%20standards%20OR%20%22reasonable%20ae
+                             sthetic%20standards%22%20ads 200                   
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Elon+Mus
+                             k+X+ads+aesthetic+standards+OR+%22reasonable+aesthe
+                             tic+standards%22+ads&limit=1 200                   
+                    INFO     response:                                          
+                             https://www.google.com/search?q=Elon+Musk+X+ads+aes
+                             thetic+standards+OR+%22reasonable+aesthetic+standar
+                             ds%22+ads&filter=1&start=0&hl=en-US&lr=lang_en&cr=c
+                             ountryUS 200                                       
+[10/17/26 19:55:53] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    ERROR    Error enriching item hackernews:story:50127979:    
+                             Tool web_search is not allowed for block summary   
+[10/17/26 19:56:21] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:56:24] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:56:37] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:56:59] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:57:57] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:57:58] INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=calif_io
+                             +iPhone+18+Pro+untethered+jailbreak+TSS+ticket+spoo
+                             fing+PAC+cryptex&limit=1 200                       
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=calif_io%20iPhone%20
+                             18%20Pro%20untethered%20jailbreak%20TSS%20ticket%20
+                             spoofing%20PAC%20cryptex 200                       
+                    INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=calif_io+iPhone+1
+                             8+Pro+untethered+jailbreak+TSS+ticket+spoofing+PAC+
+                             cryptex&source=web', 429,                          
+                             'https://search.brave.com/search?q=calif_io+iPhone+
+                             18+Pro+untethered+jailbreak+TSS+ticket+spoofing+PAC
+                             +cryptex&source=web', 'Too Many Requests')")       
+                    INFO     response:                                          
+                             https://www.google.com/search?q=calif_io+iPhone+18+
+                             Pro+untethered+jailbreak+TSS+ticket+spoofing+PAC+cr
+                             yptex&filter=1&start=0&hl=en-US&lr=lang_en&cr=count
+                             ryUS 200                                           
+[10/17/26 19:57:59] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=FLuoij8D4lkQDa
+                             _TaLkG1muk;_ylu=jVOSyvEC6yH15YNQ94FI7kuTdDBn7cjS2m9
+                             wLAthsPSv-aU?p=calif_io+iPhone+18+Pro+untethered+ja
+                             ilbreak+TSS+ticket+spoofing+PAC+cryptex 200        
+[10/17/26 19:58:13] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:58:21] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:58:34] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 19:59:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 20:00:04] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/17/26 20:01:47] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+
+   Enriched 8/9 items
+   Skipped 1 items after enrichment failed: hackernews:story:50127979
+
+💾 Saved RU summary to: 
+/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-17-ru.md
+
+📄 Copied RU summary to GitHub Pages: 
+/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-17-summary-ru.md
+
+✅ Horizon completed successfully!
+
+🧮 Token usage this run: 163416 tokens (input: 89503, output: 73913)
+   • anthropic: 163416 tokens (in: 89503, out: 73913)
