@@ -171,7 +171,9 @@ class AnthropicClient(AIClient):
                 input_tokens=getattr(usage, "input_tokens", 0),
                 output_tokens=getattr(usage, "output_tokens", 0),
             )
-        return message.content[0].text
+        # Gateways may put thinking/other blocks first; join all text blocks.
+        texts = [getattr(block, "text", None) for block in message.content or []]
+        return "".join(t for t in texts if t)
 
 
 class OpenAIClient(AIClient):
