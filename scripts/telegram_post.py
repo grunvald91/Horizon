@@ -99,7 +99,13 @@ def references_block(block: str) -> str:
     return "\n".join(lines)
 
 
+LABELS_RU = {"Tags": "Теги", "Background": "Контекст", "Discussion": "Обсуждение",
+             "References": "Ссылки", "Source": "Источник"}
+
+
 def md_to_html(md: str) -> str:
+    for en, ru in LABELS_RU.items():
+        md = md.replace(f"**{en}**", f"**{ru}**")
     md = re.sub(r"<a id=\"[^\"]*\"></a>", "", md)
     md = re.sub(
         r"<details>.*?</details>",
@@ -128,10 +134,13 @@ def md_to_html(md: str) -> str:
 
 def split_digest(md: str) -> tuple[str, list[str]]:
     md = re.sub(r"\A---\n.*?\n---\n", "", md, flags=re.S)  # front matter, если есть
-    parts = re.split(r'(?=<a id="item-\d+"></a>)', md)
+    parts = re.split(r'(?=<a id="item-[\w-]+"></a>)', md)
     head, items = parts[0], [p for p in parts[1:] if p.strip()]
-    # якорные ссылки (#item-N) в оглавлении в Telegram не работают — убираем их
-    head = re.sub(r"\[([^\]]+)\]\(#item-\d+\)", r"\1", head)
+    # заголовки разделов («## Technology News») между новостями в посты не нужны
+    items = [re.sub(r"(?m)^\s*(---\s*)?\n?^##\s+[^\n]*\s*\Z", "", it).strip() for it in items]
+    items = [re.sub(r"(?m)^##\s+[^#\n][^\n]*$", "", it).strip() for it in items]
+    # якорные ссылки (#item-…) в оглавлении в Telegram не работают — убираем их
+    head = re.sub(r"\[([^\]]+)\]\(#item-[\w-]+\)", r"\1", head)
     return head, items
 
 
