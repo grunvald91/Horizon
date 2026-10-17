@@ -1,0 +1,79 @@
+name: 1. Horizon — собрать новости
+
+on:
+  schedule:
+    # Время в UTC. 02:17 UTC = 05:17 МСК: к 9:00 очередь точно готова, даже если GitHub опоздает.
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: horizon-queue        # общий замок с публикацией
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write         # чтобы сохранить очередь в ветку news-queue
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Checkout queue branch
+        id: queue
+        continue-on-error: true   # при первом запуске ветки ещё нет
+        uses: actions/checkout@v6
+        with:
+          ref: news-queue
+          path: queue
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check API key and model
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # ключ sk-hub-... с claudehub.fun
+          # сменить модель: Settings → Secrets and variables → Actions → Variables → HORIZON_MODEL
+          HORIZON_MODEL: ${{ vars.HORIZON_MODEL || 'grok-4.7' }}
+        run: python3 scripts/llm_preflight.py
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Prepare config
+        run: cp data/config.telegram.json data/config.json
+
+      - name: Run Horizon (сбор и сортировка)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run horizon --hours 24
+
+      - name: Build today's queue
+        env:
+          DIGEST_LANG: ru
+          POST_MODE: items
+          SEND_OVERVIEW: "0"      # 1 = первым постом в 9:00 выйдет список заголовков дня
+        run: |
+          if [ "${{ steps.queue.outcome }}" != "success" ]; then
+            rm -rf queue && mkdir queue && git -C queue init -q -b news-queue
+          fi
+          python3 scripts/telegram_post.py build-queue queue/queue.json
+
+      - name: Save queue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd queue
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add queue.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Очередь новостей $(date -u +%F)"
+          git push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:news-queue

@@ -1,0 +1,49 @@
+name: 2. Telegram — публикация по расписанию
+
+on:
+  schedule:
+    # Каждый час с 06 до 18 UTC = с 09 до 21 МСК. Новости дня делятся поровну на эти запуски.
+    - cron: '3 6-18 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: horizon-queue
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write         # чтобы отметить опубликованное и сохранить список чатов
+
+    steps:
+      - name: Checkout scripts
+        uses: actions/checkout@v6
+
+      - name: Checkout queue
+        id: queue
+        continue-on-error: true   # пока сбор ни разу не запускался, ветки нет
+        uses: actions/checkout@v6
+        with:
+          ref: news-queue
+          path: queue
+
+      - name: Publish next batch to all chats
+        if: steps.queue.outcome == 'success'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}   # необязательно: чаты бот находит сам
+          WINDOW_START: "9"
+          WINDOW_END: "21"
+          USE_RICH: "0"           # 1 = пробовать Rich Messages
+        run: python3 scripts/telegram_post.py publish-queue queue/queue.json queue/chats.json
+
+      - name: Save state
+        if: always() && steps.queue.outcome == 'success'
+        run: |
+          cd queue
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -q -m "Опубликовано $(date -u +%H:%M) UTC" && git push -q)
