@@ -263,6 +263,11 @@ def _raise_if_gone(res: dict) -> None:
 ACTIVE = {"administrator", "member", "creator"}
 
 
+def _known_username(chats: dict, chat: dict) -> bool:
+    name = chat.get("username")
+    return bool(name) and f"@{name}".lower() in (k.lower() for k in chats)
+
+
 def sync_chats(chats_path: str) -> dict:
     """Читает getUpdates (добавили/удалили бота) и обновляет список чатов."""
     state = {"offset": 0, "chats": {}}
@@ -279,6 +284,13 @@ def sync_chats(chats_path: str) -> dict:
                   " (если у бота стоит webhook — его надо снять: deleteWebhook)", file=sys.stderr)
         for upd in res.get("result", []):
             state["offset"] = upd["update_id"] + 1
+            post = upd.get("channel_post") or upd.get("message")
+            if post and post.get("chat", {}).get("type") in ("channel", "group", "supergroup"):
+                chat = post["chat"]  # бот видит сообщения в чате — значит, он там есть
+                if str(chat["id"]) not in chats and not _known_username(chats, chat):
+                    chats[str(chat["id"])] = {"title": chat.get("title", ""), "type": chat["type"]}
+                    print(f"+ чат (по сообщению): {chat.get('title')} ({chat['id']})")
+                continue
             change = upd.get("my_chat_member")
             if not change:
                 continue
@@ -296,8 +308,9 @@ def sync_chats(chats_path: str) -> dict:
                 chats.pop(key)
                 print(f"− чат: {chat.get('title')} ({key})")
 
-    if CHAT_ID and CHAT_ID not in chats:
-        chats[CHAT_ID] = {"title": "из секрета TELEGRAM_CHAT_ID", "type": "manual"}
+    for extra in filter(None, re.split(r"[\s,]+", CHAT_ID)):  # можно несколько через запятую
+        if extra not in chats:
+            chats[extra] = {"title": extra, "type": "manual"}
     _save(chats_path, state)
     return state
 

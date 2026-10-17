@@ -20,6 +20,15 @@ GROUNDING_RULES = f"""- Treat the source item as the primary account of what hap
 def target_language_instruction(language: str) -> str:
     if language.lower() == "zh":
         return "Simplified Chinese (language tag `zh`)"
+    if language.lower() == "ru":
+        return (
+            "Russian (language tag `ru`). Write strictly in natural Russian: translate every "
+            "English word, phrase and technical term (e.g. code review → ревью кода, "
+            "throughput → пропускная способность, open source → открытый исходный код). "
+            "Keep in the original only proper names: companies, products, models, people, "
+            "repositories and code identifiers. Never mix English words into Russian sentences. "
+            "Do not use 「」 or other CJK punctuation; use Russian «» quotes"
+        )
     return f"language `{language}`"
 
 

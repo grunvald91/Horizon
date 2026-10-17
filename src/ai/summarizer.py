@@ -48,6 +48,17 @@ def _pangu(text: str) -> str:
 
 
 LABELS = {
+    "ru": {
+        "header": "Horizon — новости дня",
+        "source": "Источник",
+        "background": "Контекст",
+        "discussion": "Обсуждение",
+        "references": "Ссылки",
+        "tags": "Теги",
+        "selected_items": "Из {total} материалов отобрано {selected} важных",
+        "empty_analyzed": "Проанализировано {total} материалов, но ни один не прошёл порог важности.",
+        "empty_body": "Сегодня важных новостей нет.\n",
+    },
     "en": {
         "header": "Horizon Daily",
         "source": "Source",
@@ -437,7 +448,10 @@ class DailySummarizer:
                 if language == "zh":
                     block_title = _pangu(block_title)
                     block_content = _pangu(block_content)
-                lines.extend(["", f"**「{block_title}」** {block_content}"])
+                if language == "ru":
+                    lines.extend(["", f"**{block_title}:** {block_content}"])
+                else:
+                    lines.extend(["", f"**「{block_title}」** {block_content}"])
 
         sources = artifact.sources if artifact else []
         if sources:
