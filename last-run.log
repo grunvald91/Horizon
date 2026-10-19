@@ -1,400 +1,400 @@
-      • hackernews/joakimeriksson: 1
-      • hackernews/theykk: 1
-      • hackernews/xbmcuser: 1
-      • reddit/r/MachineLearning: 2
-      • rss/CNBC Finance: 1
-      • rss/Sean Goedecke: 1
-      • telegram/@zaihuapd: 1
-
-📚 Enriching with background knowledge...
-[10/18/26 07:21:35] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    WARNING  Impersonate 'chrome_120' does not exist, using     
-                             'random'                                           
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=DeepSeek
-                             +V4.1+Flash+1017+official+announcement+coding+bench
-                             marks&limit=1', 502,                               
-                             'https://grokipedia.com/api/typeahead?query=DeepSee
-                             k+V4.1+Flash+1017+official+announcement+coding+benc
-                             hmarks&limit=1', 'Bad Gateway')")                  
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=DeepSeek%20V4.1%20Fl
-                             ash%201017%20official%20announcement%20coding%20ben
-                             chmarks 200                                        
-                    INFO     response:                                          
-                             https://www.google.com/search?q=DeepSeek+V4.1+Flash
-                             +1017+official+announcement+coding+benchmarks&filte
-                             r=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 200   
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=Pele+mer
-                             maid+diagrams+themeable+SVG+pele.run+dchest&limit=1
-                             ', 502,                                            
-                             'https://grokipedia.com/api/typeahead?query=Pele+me
-                             rmaid+diagrams+themeable+SVG+pele.run+dchest&limit=
-                             1', 'Bad Gateway')")                               
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Pele%20mermaid%20dia
-                             grams%20themeable%20SVG%20pele.run%20dchest 200    
-[10/18/26 07:21:36] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=vllm-pro
-                             ject+vllm+v0.32.0+release+notes+GitHub&limit=1',   
-                             502,                                               
-                             'https://grokipedia.com/api/typeahead?query=vllm-pr
-                             oject+vllm+v0.32.0+release+notes+GitHub&limit=1',  
-                             'Bad Gateway')")                                   
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=Pele+mermaid+d
-                             iagrams+themeable+SVG+pele.run+dchest&web=1&searchi
-                             d=7300518 200                                      
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=vllm-project%20vllm%
-                             20v0.32.0%20release%20notes%20GitHub 200           
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=vllm-project+vllm
-                             +v0.32.0+release+notes+GitHub&source=web', 429,    
-                             'https://search.brave.com/search?q=vllm-project+vll
-                             m+v0.32.0+release+notes+GitHub&source=web', 'Too   
-                             Many Requests')")                                  
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/18/26 07:21:37] INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=1kHyW6vNzY3hWP
-                             Vt8z3vfaYU;_ylu=buGqAE-tbP-aqAIs1WPw-wKMdsgcu_vxujr
-                             k28CB9v85MGI?p=vllm-project+vllm+v0.32.0+release+no
-                             tes+GitHub 200                                     
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=vLLM+0.3
-                             2.0+NVFP4+KV+cache+Model+Runner+V2+breaking+changes
-                             &limit=1', 502,                                    
-                             'https://grokipedia.com/api/typeahead?query=vLLM+0.
-                             32.0+NVFP4+KV+cache+Model+Runner+V2+breaking+change
-                             s&limit=1', 'Bad Gateway')")                       
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=tBPDawsR-mYpjS
-                             d2nUZqhol7;_ylu=U7IEWxG1XGAX6iNPYBephLEOOAt4q1smHc0
-                             RWFBJLenIGhk?p=vLLM+0.32.0+NVFP4+KV+cache+Model+Run
-                             ner+V2+breaking+changes 200                        
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=vLLM%200.32.0%20NVFP
-                             4%20KV%20cache%20Model%20Runner%20V2%20breaking%20c
-                             hanges 200                                         
-[10/18/26 07:21:39] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.447887       
-                             seconds                                            
-[10/18/26 07:21:48] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:21:51] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.490804       
-                             seconds                                            
-[10/18/26 07:21:54] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.828787       
-                             seconds                                            
-[10/18/26 07:21:58] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:04] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:11] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:13] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:15] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=solar+su
-                             rpasses+nuclear+power+globally+first+time+2026+TWh+
-                             generation&limit=1', 502,                          
-                             'https://grokipedia.com/api/typeahead?query=solar+s
-                             urpasses+nuclear+power+globally+first+time+2026+TWh
-                             +generation&limit=1', 'Bad Gateway')")             
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=solar+surpasses+n
-                             uclear+power+globally+first+time+2026+TWh+generatio
-                             n&source=web', 429,                                
-                             'https://search.brave.com/search?q=solar+surpasses+
-                             nuclear+power+globally+first+time+2026+TWh+generati
-                             on&source=web', 'Too Many Requests')")             
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=solar%20surpasses%20
-                             nuclear%20power%20globally%20first%20time%202026%20
-                             TWh%20generation 200                               
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
+[10/19/26 21:58:42] INFO     Error in engine mojeek: DDGSException("HTTPError:  
                              HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=solar+surpasses+nuc
-                             lear+power+globally+first+time+2026+TWh+generation'
-                             , 403,                                             
-                             'https://www.mojeek.com/search?q=solar+surpasses+nu
-                             clear+power+globally+first+time+2026+TWh+generation
-                             ', 'Forbidden')")                                  
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/18/26 07:22:16] INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=solar+surpasses+nuc
-                             lear+power+globally+first+time+2026+TWh+generation&
-                             filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',
-                              403,                                              
-                             'https://www.google.com/search?q=solar+surpasses+nu
-                             clear+power+globally+first+time+2026+TWh+generation
-                             &filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS'
-                             , 'Forbidden')")                                   
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=solar+surpasse
-                             s+nuclear+power+globally+first+time+2026+TWh+genera
-                             tion&web=1&searchid=6770991 200                    
-[10/18/26 07:22:22] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=mikrover
-                             k+esp32sim+ESP32+browser+emulator+GitHub&limit=1', 
-                             502,                                               
-                             'https://grokipedia.com/api/typeahead?query=mikrove
-                             rk+esp32sim+ESP32+browser+emulator+GitHub&limit=1',
-                              'Bad Gateway')")                                  
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=mikroverk%20esp32sim
-                             %20ESP32%20browser%20emulator%20GitHub 200         
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=mikroverk+esp32sim+
-                             ESP32+browser+emulator+GitHub', 403,               
-                             'https://www.mojeek.com/search?q=mikroverk+esp32sim
-                             +ESP32+browser+emulator+GitHub', 'Forbidden')")    
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=BmPrEU8Dmc4apo
-                             BtS-UJmHWX;_ylu=eHXkerx-b9vhYObHc_qZC7YoaYmWV9eO4vf
-                             66KKVkAjYoPQ?p=mikroverk+esp32sim+ESP32+browser+emu
-                             lator+GitHub 200                                   
-[10/18/26 07:22:29] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:39] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=Odin+all
-                             father.dev+Tree-sitter+WebGPU+SWE-bench+Lite+debugg
-                             ing+search&limit=1', 502,                          
-                             'https://grokipedia.com/api/typeahead?query=Odin+al
-                             lfather.dev+Tree-sitter+WebGPU+SWE-bench+Lite+debug
-                             ging+search&limit=1', 'Bad Gateway')")             
-[10/18/26 07:22:40] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Odin%20allfather.dev
-                             %20Tree-sitter%20WebGPU%20SWE-bench%20Lite%20debugg
-                             ing%20search 200                                   
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=Odin+allfather
-                             .dev+Tree-sitter+WebGPU+SWE-bench+Lite+debugging+se
-                             arch&web=1&searchid=5435788 200                    
-[10/18/26 07:22:44] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:47] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:22:56] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:23:03] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:23:06] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.451553       
-                             seconds                                            
-[10/18/26 07:23:09] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=EpochGo+
-                             AryanDinakaran+GitHub+local-first+AutoML+Ollama&lim
-                             it=1', 502,                                        
-                             'https://grokipedia.com/api/typeahead?query=EpochGo
-                             +AryanDinakaran+GitHub+local-first+AutoML+Ollama&li
-                             mit=1', 'Bad Gateway')")                           
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=EpochGo%20AryanDinak
-                             aran%20GitHub%20local-first%20AutoML%20Ollama 200  
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=EpochGo+AryanDinaka
-                             ran+GitHub+local-first+AutoML+Ollama', 403,        
-                             'https://www.mojeek.com/search?q=EpochGo+AryanDinak
-                             aran+GitHub+local-first+AutoML+Ollama',            
+                             https://www.mojeek.com/search?q=2026%E5%B9%B4+%E8%B
+                             4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+%E5%9
+                             C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%96%B0
+                             %E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3',   
+                             403,                                               
+                             'https://www.mojeek.com/search?q=2026%E5%B9%B4+%E8%
+                             B4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+%E5%
+                             9C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%96%B
+                             0%E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3',  
                              'Forbidden')")                                     
                     INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=A2A5GvgFoYiLnj
-                             b7yBmeVtNU;_ylu=G2UkCCX_lAjp0hoj6iSoIYqHM2LpuESVQho
-                             Dc_OQjOrXWy8?p=EpochGo+AryanDinakaran+GitHub+local-
-                             first+AutoML+Ollama 200                            
-[10/18/26 07:23:13] INFO     HTTP Request: POST                                 
+                             https://yandex.com/search/site/?text=2026%E5%B9%B4+
+                             %E8%B4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+
+                             %E5%9C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%
+                             96%B0%E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3
+                             &web=1&searchid=2862783 200                        
+[10/19/26 21:59:07] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=OpenCode
-                             +distillation+attack+exposed+OpenAI+Anthropic+Googl
-                             e+API+keys+Console+users+October+2026&limit=1',    
-                             502,                                               
-                             'https://grokipedia.com/api/typeahead?query=OpenCod
-                             e+distillation+attack+exposed+OpenAI+Anthropic+Goog
-                             le+API+keys+Console+users+October+2026&limit=1',   
-                             'Bad Gateway')")                                   
                     INFO     response:                                          
                              https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=OpenCode%20distillat
-                             ion%20attack%20exposed%20OpenAI%20Anthropic%20Googl
-                             e%20API%20keys%20Console%20users%20October%202026  
+                             h&profile=fuzzy&limit=1&search=Anthropic%20IPO%20pl
+                             ans%20OR%20SEC%20filing%20OR%20valuation%202026 200
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Anthropi
+                             c+IPO+plans+OR+SEC+filing+OR+valuation+2026&limit=1
+                              200                                               
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=MKXIvOhQv5VZb4
+                             mw3M4qPL33;_ylu=sVoiOeQuPFXashD0cn8OtoD0obOkHl92bBQ
+                             KlUkjPAG-d5U?p=Anthropic+IPO+plans+OR+SEC+filing+OR
+                             +valuation+2026 200                                
+[10/19/26 21:59:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=AI%20IPO%20market%20
+                             2026%20OR%20impact%20of%20Anthropic%20valuation%20c
+                             ut%20on%20AI%20stocks%20OR%20Kalshi%20IPO%20odds   
                              200                                                
                     INFO     response:                                          
-                             https://yandex.com/search/site/?text=OpenCode+disti
-                             llation+attack+exposed+OpenAI+Anthropic+Google+API+
-                             keys+Console+users+October+2026&web=1&searchid=4402
-                             174 200                                            
-                    INFO     Error in engine grokipedia:                        
-                             DDGSException("HTTPError: HTTPError('HTTP 502 Bad  
-                             Gateway for URL:                                   
-                             https://grokipedia.com/api/typeahead?query=OpenCode
-                             +API+key+leak+user+impact+key+rotation+OpenAI+Anthr
-                             opic+Google&limit=1', 502,                         
-                             'https://grokipedia.com/api/typeahead?query=OpenCod
-                             e+API+key+leak+user+impact+key+rotation+OpenAI+Anth
-                             ropic+Google&limit=1', 'Bad Gateway')")            
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/18/26 07:23:14] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=OpenCode%20API%20key
-                             %20leak%20user%20impact%20key%20rotation%20OpenAI%2
-                             0Anthropic%20Google 200                            
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=OpenCode+API+key+
-                             leak+user+impact+key+rotation+OpenAI+Anthropic+Goog
-                             le&source=web', 429,                               
-                             'https://search.brave.com/search?q=OpenCode+API+key
-                             +leak+user+impact+key+rotation+OpenAI+Anthropic+Goo
-                             gle&source=web', 'Too Many Requests')")            
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=OpenCode+API+key+le
-                             ak+user+impact+key+rotation+OpenAI+Anthropic+Google
-                             ', 403,                                            
-                             'https://www.mojeek.com/search?q=OpenCode+API+key+l
-                             eak+user+impact+key+rotation+OpenAI+Anthropic+Googl
-                             e', 'Forbidden')")                                 
+                             https://grokipedia.com/api/typeahead?query=AI+IPO+m
+                             arket+2026+OR+impact+of+Anthropic+valuation+cut+on+
+                             AI+stocks+OR+Kalshi+IPO+odds&limit=1 200           
                     INFO     HTTP Request: POST                                 
                              https://html.duckduckgo.com/html/ "HTTP/2 202      
                              Accepted"                                          
-                    INFO     response:                                          
-                             https://www.google.com/search?q=OpenCode+API+key+le
-                             ak+user+impact+key+rotation+OpenAI+Anthropic+Google
-                             &filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS 
+[10/19/26 21:59:09] INFO     response:                                          
+                             https://www.google.com/search?q=AI+IPO+market+2026+
+                             OR+impact+of+Anthropic+valuation+cut+on+AI+stocks+O
+                             R+Kalshi+IPO+odds&filter=1&start=0&hl=en-US&lr=lang
+                             _en&cr=countryUS 200                               
+[10/19/26 21:59:13] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 21:59:27] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 21:59:29] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 21:59:34] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 21:59:45] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 21:59:54] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:00:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:00:15] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:00:24] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:00:36] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:00:54] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    ERROR    Error enriching item hackernews:story:50152307:    
+                             Tool web_search is not allowed for block summary   
+[10/19/26 22:01:03] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:01:04] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Mistral%20Timestral%
+                             20time-series%20foundation%20models%20announcement 
                              200                                                
-[10/18/26 07:23:16] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.460816       
-                             seconds                                            
-[10/18/26 07:23:24] INFO     HTTP Request: POST                                 
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Mistral+
+                             Timestral+time-series+foundation+models+announcemen
+                             t&limit=1 200                                      
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=Q03T9SlEo3PjBM
+                             JbenOOWMgg;_ylu=ouFsvW_pd5lKlVOMwtmNvMVB9HOMEiSl42r
+                             aReve2uYNVKk?p=Mistral+Timestral+time-series+founda
+                             tion+models+announcement 200                       
+[10/19/26 22:01:05] INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Timestra
+                             l+Mistral+benchmarks+license+t0-gamma+covariates&li
+                             mit=1 200                                          
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Timestral%20Mistral%
+                             20benchmarks%20license%20t0-gamma%20covariates 200 
+[10/19/26 22:01:06] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Timestral+Mist
+                             ral+benchmarks+license+t0-gamma+covariates&web=1&se
+                             archid=8792169 200                                 
+[10/19/26 22:01:19] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:23:28] INFO     HTTP Request: POST                                 
+[10/19/26 22:01:26] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:23:32] INFO     HTTP Request: POST                                 
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=github.com/kksimp/Ma
+                             c.apk%20Mac.apk%20Dario%20Android%20native%20macOS%
+                             20ARM%20translation 200                            
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=github.c
+                             om%2Fkksimp%2FMac.apk+Mac.apk+Dario+Android+native+
+                             macOS+ARM+translation&limit=1 200                  
+[10/19/26 22:01:27] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=github.com%2Fkksimp
+                             %2FMac.apk+Mac.apk+Dario+Android+native+macOS+ARM+t
+                             ranslation', 403,                                  
+                             'https://www.mojeek.com/search?q=github.com%2Fkksim
+                             p%2FMac.apk+Mac.apk+Dario+Android+native+macOS+ARM+
+                             translation', 'Forbidden')")                       
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=KGYX52I2OCdzyy
+                             p3SdBph-dI;_ylu=eDf32MSXi2cHqwnUmX5G5wqpxwTBrKYOMRO
+                             VgRJsToHBsOc?p=github.com%2Fkksimp%2FMac.apk+Mac.ap
+                             k+Dario+Android+native+macOS+ARM+translation 200   
+[10/19/26 22:01:28] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Android%20apps%20nat
+                             ive%20on%20macOS%20Apple%20Silicon%20no%20emulator%
+                             20impact%20Minecraft%20Play%20Services 200         
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Android+
+                             apps+native+on+macOS+Apple+Silicon+no+emulator+impa
+                             ct+Minecraft+Play+Services&limit=1 200             
+[10/19/26 22:01:29] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Android+apps+n
+                             ative+on+macOS+Apple+Silicon+no+emulator+impact+Min
+                             ecraft+Play+Services&web=1&searchid=8630152 200    
+[10/19/26 22:01:42] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:23:44] INFO     HTTP Request: POST                                 
+[10/19/26 22:02:39] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:23:45] INFO     HTTP Request: POST                                 
+[10/19/26 22:02:45] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:23:46] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
-                             Bad Gateway"                                       
-                    INFO     Retrying request to /v1/messages in 0.452074       
-                             seconds                                            
-[10/18/26 07:23:52] INFO     HTTP Request: POST                                 
+[10/19/26 22:02:51] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:24:07] INFO     HTTP Request: POST                                 
+[10/19/26 22:02:58] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/18/26 07:24:43] INFO     HTTP Request: POST                                 
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Let%27s%20Encrypt%20
+                             is%20adding%20two%20additional%20remote%20perspecti
+                             ves%20for%20domain%20validation%20site%3Acommunity.
+                             letsencrypt.org 200                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Let%27s+
+                             Encrypt+is+adding+two+additional+remote+perspective
+                             s+for+domain+validation+site%3Acommunity.letsencryp
+                             t.org&limit=1 200                                  
+[10/19/26 22:02:59] INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+                    INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=Let%27s+Encrypt+is+
+                             adding+two+additional+remote+perspectives+for+domai
+                             n+validation+site%3Acommunity.letsencrypt.org&filte
+                             r=1&start=0&hl=en-US&lr=lang_en&cr=countryUS', 403,
+                             'https://www.google.com/search?q=Let%27s+Encrypt+is
+                             +adding+two+additional+remote+perspectives+for+doma
+                             in+validation+site%3Acommunity.letsencrypt.org&filt
+                             er=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',    
+                             'Forbidden')")                                     
+[10/19/26 22:03:00] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Let%27s+Encrypt+is+
+                             adding+two+additional+remote+perspectives+for+domai
+                             n+validation+site%3Acommunity.letsencrypt.org',    
+                             403,                                               
+                             'https://www.mojeek.com/search?q=Let%27s+Encrypt+is
+                             +adding+two+additional+remote+perspectives+for+doma
+                             in+validation+site%3Acommunity.letsencrypt.org',   
+                             'Forbidden')")                                     
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=hHoTiAeCzr88kN
+                             OzQ3sh67iS;_ylu=LL2UfDGVenHsnHqfIVYtxrBAIUcmAmJAcCe
+                             8XBHSzDADNuc?p=Let%27s+Encrypt+is+adding+two+additi
+                             onal+remote+perspectives+for+domain+validation+site
+                             %3Acommunity.letsencrypt.org 200                   
+[10/19/26 22:03:01] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Let%27s%20Encrypt%20
+                             remote%20perspectives%20domain%20validation%20BGP%2
+                             0hijack%20incident%20August 200                    
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Let%27s+
+                             Encrypt+remote+perspectives+domain+validation+BGP+h
+                             ijack+incident+August&limit=1 200                  
+                    INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+[10/19/26 22:03:02] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Let%27s+Encrypt+rem
+                             ote+perspectives+domain+validation+BGP+hijack+incid
+                             ent+August', 403,                                  
+                             'https://www.mojeek.com/search?q=Let%27s+Encrypt+re
+                             mote+perspectives+domain+validation+BGP+hijack+inci
+                             dent+August', 'Forbidden')")                       
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://yandex.com/search/site/?text=Let%27s+Encryp
+                             t+remote+perspectives+domain+validation+BGP+hijack+
+                             incident+August&web=1&searchid=4922793 200         
+[10/19/26 22:03:25] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:03:39] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:04:00] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:04:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:04:09] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=MiniMax%20M3.1%20Fla
+                             sh%20release%20inference%20speed%20pricing%20DeepSW
+                             E%20OSWorld 200                                    
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=MiniMax+
+                             M3.1+Flash+release+inference+speed+pricing+DeepSWE+
+                             OSWorld&limit=1 200                                
+                    INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+                    INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=MiniMax+M3.1+Flash+
+                             release+inference+speed+pricing+DeepSWE+OSWorld&fil
+                             ter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',   
+                             403,                                               
+                             'https://www.google.com/search?q=MiniMax+M3.1+Flash
+                             +release+inference+speed+pricing+DeepSWE+OSWorld&fi
+                             lter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',  
+                             'Forbidden')")                                     
+[10/19/26 22:04:10] INFO     response:                                          
+                             https://yandex.com/search/site/?text=MiniMax+M3.1+F
+                             lash+release+inference+speed+pricing+DeepSWE+OSWorl
+                             d&web=1&searchid=5413585 200                       
+[10/19/26 22:04:28] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:04:35] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Apollo%20Research%20
+                             GLM-5.3%20update-aware%20reasoning%20deceptive%20al
+                             ignment 200                                        
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Apollo+R
+                             esearch+GLM-5.3+update-aware+reasoning+deceptive+al
+                             ignment&limit=1 200                                
+[10/19/26 22:04:36] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=R_BZWyn6ui0ya_
+                             ch_2B2iVIs;_ylu=4e8hB8yuGIxjpujw-eWU8gH4RYdnph2uLHI
+                             KIHNRSlo8pBI?p=Apollo+Research+GLM-5.3+update-aware
+                             +reasoning+deceptive+alignment 200                 
+                    ERROR    Error enriching item telegram:zaihuapd:44525: Tool 
+                             web_search is not allowed for block                
+                             community_discussion                               
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:04:38] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:06:01] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:06:40] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=DHS%20DeepSeek%20exc
+                             lusion%20order%20federal%20civilian 200            
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=DHS+Deep
+                             Seek+exclusion+order+federal+civilian&limit=1 200  
+                    INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=DHS+DeepSeek+exclus
+                             ion+order+federal+civilian&filter=1&start=0&hl=en-U
+                             S&lr=lang_en&cr=countryUS', 403,                   
+                             'https://www.google.com/search?q=DHS+DeepSeek+exclu
+                             sion+order+federal+civilian&filter=1&start=0&hl=en-
+                             US&lr=lang_en&cr=countryUS', 'Forbidden')")        
+                    INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=DHS+DeepSeek+excl
+                             usion+order+federal+civilian&source=web', 429,     
+                             'https://search.brave.com/search?q=DHS+DeepSeek+exc
+                             lusion+order+federal+civilian&source=web', 'Too    
+                             Many Requests')")                                  
+[10/19/26 22:06:41] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=DHS+DeepSeek+exclus
+                             ion+order+federal+civilian', 403,                  
+                             'https://www.mojeek.com/search?q=DHS+DeepSeek+exclu
+                             sion+order+federal+civilian', 'Forbidden')")       
+[10/19/26 22:06:42] INFO     response:                                          
+                             https://yandex.com/search/site/?text=DHS+DeepSeek+e
+                             xclusion+order+federal+civilian&web=1&searchid=6411
+                             197 200                                            
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=DeepSeek%20AI%20comp
+                             any%20and%20products 200                           
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=DeepSeek
+                             +AI+company+and+products&limit=1 200               
+                    INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=DeepSeek+AI+company
+                             +and+products&filter=1&start=0&hl=en-US&lr=lang_en&
+                             cr=countryUS', 403,                                
+                             'https://www.google.com/search?q=DeepSeek+AI+compan
+                             y+and+products&filter=1&start=0&hl=en-US&lr=lang_en
+                             &cr=countryUS', 'Forbidden')")                     
+[10/19/26 22:06:43] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=2B1GHlyo08Emfb
+                             _pYaGJsdEb;_ylu=gvNuJqs-fLU9wNkaPt_EFxufapE62KqlnQD
+                             n0rXfI8EZJvg?p=DeepSeek+AI+company+and+products 200
+[10/19/26 22:06:44] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=US%20government%20re
+                             strictions%20on%20DeepSeek 200                     
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=US+gover
+                             nment+restrictions+on+DeepSeek&limit=1 200         
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=u8fGiQqFjKR8Pr
+                             aXd0J2FeKx;_ylu=Ump7Bi5OpPU8Uepv_qy4VDEL4OrJEvI-nJu
+                             egCfPcVjYvjE?p=US+government+restrictions+on+DeepSe
+                             ek 200                                             
+[10/19/26 22:09:03] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/19/26 22:09:17] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
 
-   Enriched 10/10 items
+   Enriched 12/14 items
+   Skipped 2 items after enrichment failed: hackernews:story:50152307, 
+telegram:zaihuapd:44525
 
 💾 Saved RU summary to: 
-/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-18-ru.md
+/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-19-ru.md
 
 📄 Copied RU summary to GitHub Pages: 
-/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-18-summary-ru.md
+/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-19-summary-ru.md
 
 ✅ Horizon completed successfully!
 
-🧮 Token usage this run: 174359 tokens (input: 108379, output: 65980)
-   • anthropic: 174359 tokens (in: 108379, out: 65980)
+🧮 Token usage this run: 200957 tokens (input: 124251, output: 76706)
+   • anthropic: 200957 tokens (in: 124251, out: 76706)
