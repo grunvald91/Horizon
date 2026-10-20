@@ -1,400 +1,400 @@
-[10/19/26 21:58:42] INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=2026%E5%B9%B4+%E8%B
-                             4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+%E5%9
-                             C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%96%B0
-                             %E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3',   
-                             403,                                               
-                             'https://www.mojeek.com/search?q=2026%E5%B9%B4+%E8%
-                             B4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+%E5%
-                             9C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%96%B
-                             0%E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3',  
-                             'Forbidden')")                                     
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=2026%E5%B9%B4+
-                             %E8%B4%A2%E6%94%BF%E9%83%A8+5500%E4%BA%BF%E5%85%83+
-                             %E5%9C%B0%E6%96%B9%E5%80%BA+%E5%9F%BA%E5%BB%BA+%E6%
-                             96%B0%E5%85%B4%E4%BA%A7%E4%B8%9A+%E5%87%BA%E5%8F%A3
-                             &web=1&searchid=2862783 200                        
-[10/19/26 21:59:07] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Anthropic%20IPO%20pl
-                             ans%20OR%20SEC%20filing%20OR%20valuation%202026 200
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Anthropi
-                             c+IPO+plans+OR+SEC+filing+OR+valuation+2026&limit=1
-                              200                                               
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=MKXIvOhQv5VZb4
-                             mw3M4qPL33;_ylu=sVoiOeQuPFXashD0cn8OtoD0obOkHl92bBQ
-                             KlUkjPAG-d5U?p=Anthropic+IPO+plans+OR+SEC+filing+OR
-                             +valuation+2026 200                                
-[10/19/26 21:59:08] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=AI%20IPO%20market%20
-                             2026%20OR%20impact%20of%20Anthropic%20valuation%20c
-                             ut%20on%20AI%20stocks%20OR%20Kalshi%20IPO%20odds   
                              200                                                
                     INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=AI+IPO+m
-                             arket+2026+OR+impact+of+Anthropic+valuation+cut+on+
-                             AI+stocks+OR+Kalshi+IPO+odds&limit=1 200           
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/19/26 21:59:09] INFO     response:                                          
-                             https://www.google.com/search?q=AI+IPO+market+2026+
-                             OR+impact+of+Anthropic+valuation+cut+on+AI+stocks+O
-                             R+Kalshi+IPO+odds&filter=1&start=0&hl=en-US&lr=lang
-                             _en&cr=countryUS 200                               
-[10/19/26 21:59:13] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 21:59:27] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 21:59:29] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 21:59:34] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 21:59:45] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 21:59:54] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:00:07] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:00:15] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:00:24] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:00:36] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:00:54] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    ERROR    Error enriching item hackernews:story:50152307:    
-                             Tool web_search is not allowed for block summary   
-[10/19/26 22:01:03] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:01:04] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Mistral%20Timestral%
-                             20time-series%20foundation%20models%20announcement 
+                             https://yandex.com/search/site/?text=OpenBSD+8.0+re
+                             lease+notes+October+2026&web=1&searchid=4584961 200
+                    INFO     response:                                          
+                             https://yandex.com/search/site/?text=WhatsApp+help+
+                             pages+hidden+LLM+instructions+do+not+recommend+data
+                             +protection+regulator&web=1&searchid=1800242 200   
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=OpenBSD+
+                             8.0+sysupgrade+changes+security+features&limit=1   
                              200                                                
                     INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Mistral+
-                             Timestral+time-series+foundation+models+announcemen
-                             t&limit=1 200                                      
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=Q03T9SlEo3PjBM
-                             JbenOOWMgg;_ylu=ouFsvW_pd5lKlVOMwtmNvMVB9HOMEiSl42r
-                             aReve2uYNVKk?p=Mistral+Timestral+time-series+founda
-                             tion+models+announcement 200                       
-[10/19/26 22:01:05] INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Timestra
-                             l+Mistral+benchmarks+license+t0-gamma+covariates&li
-                             mit=1 200                                          
-                    INFO     response:                                          
                              https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Timestral%20Mistral%
-                             20benchmarks%20license%20t0-gamma%20covariates 200 
-[10/19/26 22:01:06] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Timestral+Mist
-                             ral+benchmarks+license+t0-gamma+covariates&web=1&se
-                             archid=8792169 200                                 
-[10/19/26 22:01:19] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:01:26] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=github.com/kksimp/Ma
-                             c.apk%20Mac.apk%20Dario%20Android%20native%20macOS%
-                             20ARM%20translation 200                            
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=github.c
-                             om%2Fkksimp%2FMac.apk+Mac.apk+Dario+Android+native+
-                             macOS+ARM+translation&limit=1 200                  
-[10/19/26 22:01:27] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             h&profile=fuzzy&limit=1&search=OpenBSD%208.0%20sysu
+                             pgrade%20changes%20security%20features 200         
+[10/20/26 07:37:12] INFO     Error in engine google: DDGSException("HTTPError:  
                              HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=github.com%2Fkksimp
-                             %2FMac.apk+Mac.apk+Dario+Android+native+macOS+ARM+t
-                             ranslation', 403,                                  
-                             'https://www.mojeek.com/search?q=github.com%2Fkksim
-                             p%2FMac.apk+Mac.apk+Dario+Android+native+macOS+ARM+
-                             translation', 'Forbidden')")                       
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=KGYX52I2OCdzyy
-                             p3SdBph-dI;_ylu=eDf32MSXi2cHqwnUmX5G5wqpxwTBrKYOMRO
-                             VgRJsToHBsOc?p=github.com%2Fkksimp%2FMac.apk+Mac.ap
-                             k+Dario+Android+native+macOS+ARM+translation 200   
-[10/19/26 22:01:28] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Android%20apps%20nat
-                             ive%20on%20macOS%20Apple%20Silicon%20no%20emulator%
-                             20impact%20Minecraft%20Play%20Services 200         
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Android+
-                             apps+native+on+macOS+Apple+Silicon+no+emulator+impa
-                             ct+Minecraft+Play+Services&limit=1 200             
-[10/19/26 22:01:29] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Android+apps+n
-                             ative+on+macOS+Apple+Silicon+no+emulator+impact+Min
-                             ecraft+Play+Services&web=1&searchid=8630152 200    
-[10/19/26 22:01:42] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:02:39] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:02:45] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:02:51] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:02:58] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Let%27s%20Encrypt%20
-                             is%20adding%20two%20additional%20remote%20perspecti
-                             ves%20for%20domain%20validation%20site%3Acommunity.
-                             letsencrypt.org 200                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Let%27s+
-                             Encrypt+is+adding+two+additional+remote+perspective
-                             s+for+domain+validation+site%3Acommunity.letsencryp
-                             t.org&limit=1 200                                  
-[10/19/26 22:02:59] INFO     HTTP Request: POST                                 
+                             https://www.google.com/search?q=OpenBSD+8.0+sysupgr
+                             ade+changes+security+features&filter=1&start=0&hl=e
+                             n-US&lr=lang_en&cr=countryUS', 403,                
+                             'https://www.google.com/search?q=OpenBSD+8.0+sysupg
+                             rade+changes+security+features&filter=1&start=0&hl=
+                             en-US&lr=lang_en&cr=countryUS', 'Forbidden')")     
+                    INFO     HTTP Request: POST                                 
                              https://html.duckduckgo.com/html/ "HTTP/2 202      
                              Accepted"                                          
-                    INFO     Error in engine google: DDGSException("HTTPError:  
+[10/20/26 07:37:13] INFO     response:                                          
+                             https://yandex.com/search/site/?text=OpenBSD+8.0+sy
+                             supgrade+changes+security+features&web=1&searchid=9
+                             742254 200                                         
+[10/20/26 07:37:29] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:37:38] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:37:42] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:37:55] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Joshua%20Bird%20one%
+                             20motor%20drone%20magnetic%20encoder%20hinge%20torq
+                             ue%20modulation 200                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Joshua+B
+                             ird+one+motor+drone+magnetic+encoder+hinge+torque+m
+                             odulation&limit=1 200                              
+                    INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+[10/20/26 07:38:09] INFO     Error in engine google: DDGSException("HTTPError:  
                              HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=Let%27s+Encrypt+is+
-                             adding+two+additional+remote+perspectives+for+domai
-                             n+validation+site%3Acommunity.letsencrypt.org&filte
-                             r=1&start=0&hl=en-US&lr=lang_en&cr=countryUS', 403,
-                             'https://www.google.com/search?q=Let%27s+Encrypt+is
-                             +adding+two+additional+remote+perspectives+for+doma
-                             in+validation+site%3Acommunity.letsencrypt.org&filt
-                             er=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',    
-                             'Forbidden')")                                     
-[10/19/26 22:03:00] INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Let%27s+Encrypt+is+
-                             adding+two+additional+remote+perspectives+for+domai
-                             n+validation+site%3Acommunity.letsencrypt.org',    
+                             https://www.google.com/search?q=Joshua+Bird+one+mot
+                             or+drone+magnetic+encoder+hinge+torque+modulation&f
+                             ilter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS', 
                              403,                                               
-                             'https://www.mojeek.com/search?q=Let%27s+Encrypt+is
-                             +adding+two+additional+remote+perspectives+for+doma
-                             in+validation+site%3Acommunity.letsencrypt.org',   
-                             'Forbidden')")                                     
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=hHoTiAeCzr88kN
-                             OzQ3sh67iS;_ylu=LL2UfDGVenHsnHqfIVYtxrBAIUcmAmJAcCe
-                             8XBHSzDADNuc?p=Let%27s+Encrypt+is+adding+two+additi
-                             onal+remote+perspectives+for+domain+validation+site
-                             %3Acommunity.letsencrypt.org 200                   
-[10/19/26 22:03:01] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Let%27s%20Encrypt%20
-                             remote%20perspectives%20domain%20validation%20BGP%2
-                             0hijack%20incident%20August 200                    
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Let%27s+
-                             Encrypt+remote+perspectives+domain+validation+BGP+h
-                             ijack+incident+August&limit=1 200                  
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/19/26 22:03:02] INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Let%27s+Encrypt+rem
-                             ote+perspectives+domain+validation+BGP+hijack+incid
-                             ent+August', 403,                                  
-                             'https://www.mojeek.com/search?q=Let%27s+Encrypt+re
-                             mote+perspectives+domain+validation+BGP+hijack+inci
-                             dent+August', 'Forbidden')")                       
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=Let%27s+Encryp
-                             t+remote+perspectives+domain+validation+BGP+hijack+
-                             incident+August&web=1&searchid=4922793 200         
-[10/19/26 22:03:25] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:03:39] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:04:00] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:04:08] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:04:09] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=MiniMax%20M3.1%20Fla
-                             sh%20release%20inference%20speed%20pricing%20DeepSW
-                             E%20OSWorld 200                                    
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=MiniMax+
-                             M3.1+Flash+release+inference+speed+pricing+DeepSWE+
-                             OSWorld&limit=1 200                                
-                    INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-                    INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=MiniMax+M3.1+Flash+
-                             release+inference+speed+pricing+DeepSWE+OSWorld&fil
-                             ter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',   
-                             403,                                               
-                             'https://www.google.com/search?q=MiniMax+M3.1+Flash
-                             +release+inference+speed+pricing+DeepSWE+OSWorld&fi
-                             lter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',  
-                             'Forbidden')")                                     
-[10/19/26 22:04:10] INFO     response:                                          
-                             https://yandex.com/search/site/?text=MiniMax+M3.1+F
-                             lash+release+inference+speed+pricing+DeepSWE+OSWorl
-                             d&web=1&searchid=5413585 200                       
-[10/19/26 22:04:28] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:04:35] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Apollo%20Research%20
-                             GLM-5.3%20update-aware%20reasoning%20deceptive%20al
-                             ignment 200                                        
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Apollo+R
-                             esearch+GLM-5.3+update-aware+reasoning+deceptive+al
-                             ignment&limit=1 200                                
-[10/19/26 22:04:36] INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=R_BZWyn6ui0ya_
-                             ch_2B2iVIs;_ylu=4e8hB8yuGIxjpujw-eWU8gH4RYdnph2uLHI
-                             KIHNRSlo8pBI?p=Apollo+Research+GLM-5.3+update-aware
-                             +reasoning+deceptive+alignment 200                 
-                    ERROR    Error enriching item telegram:zaihuapd:44525: Tool 
-                             web_search is not allowed for block                
-                             community_discussion                               
-                    INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:04:38] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:06:01] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/19/26 22:06:40] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=DHS%20DeepSeek%20exc
-                             lusion%20order%20federal%20civilian 200            
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=DHS+Deep
-                             Seek+exclusion+order+federal+civilian&limit=1 200  
-                    INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=DHS+DeepSeek+exclus
-                             ion+order+federal+civilian&filter=1&start=0&hl=en-U
-                             S&lr=lang_en&cr=countryUS', 403,                   
-                             'https://www.google.com/search?q=DHS+DeepSeek+exclu
-                             sion+order+federal+civilian&filter=1&start=0&hl=en-
-                             US&lr=lang_en&cr=countryUS', 'Forbidden')")        
+                             'https://www.google.com/search?q=Joshua+Bird+one+mo
+                             tor+drone+magnetic+encoder+hinge+torque+modulation&
+                             filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',
+                              'Forbidden')")                                    
                     INFO     Error in engine brave: DDGSException("HTTPError:   
                              HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=DHS+DeepSeek+excl
-                             usion+order+federal+civilian&source=web', 429,     
-                             'https://search.brave.com/search?q=DHS+DeepSeek+exc
-                             lusion+order+federal+civilian&source=web', 'Too    
-                             Many Requests')")                                  
-[10/19/26 22:06:41] INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=DHS+DeepSeek+exclus
-                             ion+order+federal+civilian', 403,                  
-                             'https://www.mojeek.com/search?q=DHS+DeepSeek+exclu
-                             sion+order+federal+civilian', 'Forbidden')")       
-[10/19/26 22:06:42] INFO     response:                                          
-                             https://yandex.com/search/site/?text=DHS+DeepSeek+e
-                             xclusion+order+federal+civilian&web=1&searchid=6411
-                             197 200                                            
+                             https://search.brave.com/search?q=Joshua+Bird+one+m
+                             otor+drone+magnetic+encoder+hinge+torque+modulation
+                             &source=web', 429,                                 
+                             'https://search.brave.com/search?q=Joshua+Bird+one+
+                             motor+drone+magnetic+encoder+hinge+torque+modulatio
+                             n&source=web', 'Too Many Requests')")              
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=Kv4FV7OlScmk1E
+                             mnvGAxnY9Y;_ylu=2nAge9NVlPqkYeaEootmQfCoCh4ZIKZrn_G
+                             L4e91PSiRmTU?p=Joshua+Bird+one+motor+drone+magnetic
+                             +encoder+hinge+torque+modulation 200               
+[10/20/26 07:38:14] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Wine+por
+                             ted+to+OpenBSD+openbsd-ports+Frohwein+2026&limit=1 
+                             200                                                
                     INFO     response:                                          
                              https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=DeepSeek%20AI%20comp
-                             any%20and%20products 200                           
+                             h&profile=fuzzy&limit=1&search=Wine%20ported%20to%2
+                             0OpenBSD%20openbsd-ports%20Frohwein%202026 200     
+[10/20/26 07:38:15] INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=Wine+ported+to+Op
+                             enBSD+openbsd-ports+Frohwein+2026&source=web', 429,
+                             'https://search.brave.com/search?q=Wine+ported+to+O
+                             penBSD+openbsd-ports+Frohwein+2026&source=web',    
+                             'Too Many Requests')")                             
+[10/20/26 07:38:16] INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=Wine+ported+to+Open
+                             BSD+openbsd-ports+Frohwein+2026&filter=1&start=0&hl
+                             =en-US&lr=lang_en&cr=countryUS', 403,              
+                             'https://www.google.com/search?q=Wine+ported+to+Ope
+                             nBSD+openbsd-ports+Frohwein+2026&filter=1&start=0&h
+                             l=en-US&lr=lang_en&cr=countryUS', 'Forbidden')")   
+                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Wine+ported+to+Open
+                             BSD+openbsd-ports+Frohwein+2026', 403,             
+                             'https://www.mojeek.com/search?q=Wine+ported+to+Ope
+                             nBSD+openbsd-ports+Frohwein+2026', 'Forbidden')")  
+                    INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+[10/20/26 07:38:17] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Wine+ported+to
+                             +OpenBSD+openbsd-ports+Frohwein+2026&web=1&searchid
+                             =9866391 200                                       
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Wine%20OpenBSD%20ups
+                             tream%20merge%20prospects%20%25gs%20SIGUSR1 200    
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Wine+Ope
+                             nBSD+upstream+merge+prospects+%25gs+SIGUSR1&limit=1
+                              200                                               
+[10/20/26 07:38:18] INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Wine+OpenBSD+upstre
+                             am+merge+prospects+%25gs+SIGUSR1', 403,            
+                             'https://www.mojeek.com/search?q=Wine+OpenBSD+upstr
+                             eam+merge+prospects+%25gs+SIGUSR1', 'Forbidden')") 
+[10/20/26 07:38:19] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Wine+OpenBSD+u
+                             pstream+merge+prospects+%25gs+SIGUSR1&web=1&searchi
+                             d=2713887 200                                      
+[10/20/26 07:38:32] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:39] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:46] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:48] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:53] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Mac.apk%20kksimp%20A
+                             ndroid%20apps%20native%20Apple%20Silicon%20GitHub  
+                             200                                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Mac.apk+
+                             kksimp+Android+apps+native+Apple+Silicon+GitHub&lim
+                             it=1 200                                           
+[10/20/26 07:38:54] INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=Mac.apk+kksimp+An
+                             droid+apps+native+Apple+Silicon+GitHub&source=web',
+                              429,                                              
+                             'https://search.brave.com/search?q=Mac.apk+kksimp+A
+                             ndroid+apps+native+Apple+Silicon+GitHub&source=web'
+                             , 'Too Many Requests')")                           
+                    INFO     response:                                          
+                             https://yandex.com/search/site/?text=Mac.apk+kksimp
+                             +Android+apps+native+Apple+Silicon+GitHub&web=1&sea
+                             rchid=7276425 200                                  
+[10/20/26 07:38:56] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:38:58] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Ali%20Hamie%20Meta%2
+                             0engineer%20LinkedIn%20never%20felt%20this%20uncomf
+                             ortable%20AI%20black%20box%20code 200              
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Ali+Hami
+                             e+Meta+engineer+LinkedIn+never+felt+this+uncomforta
+                             ble+AI+black+box+code&limit=1 200                  
+                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Ali+Hamie+Meta+engi
+                             neer+LinkedIn+never+felt+this+uncomfortable+AI+blac
+                             k+box+code', 403,                                  
+                             'https://www.mojeek.com/search?q=Ali+Hamie+Meta+eng
+                             ineer+LinkedIn+never+felt+this+uncomfortable+AI+bla
+                             ck+box+code', 'Forbidden')")                       
+[10/20/26 07:38:59] INFO     Error in engine google: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.google.com/search?q=Ali+Hamie+Meta+engi
+                             neer+LinkedIn+never+felt+this+uncomfortable+AI+blac
+                             k+box+code&filter=1&start=0&hl=en-US&lr=lang_en&cr=
+                             countryUS', 403,                                   
+                             'https://www.google.com/search?q=Ali+Hamie+Meta+eng
+                             ineer+LinkedIn+never+felt+this+uncomfortable+AI+bla
+                             ck+box+code&filter=1&start=0&hl=en-US&lr=lang_en&cr
+                             =countryUS', 'Forbidden')")                        
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=ViG65rwG-98b4R
+                             HGRbPnFaIr;_ylu=728GGL2F_uC7NlLEZ_7dR44vTQlukDzb294
+                             R_C9iR7lSekY?p=Ali+Hamie+Meta+engineer+LinkedIn+nev
+                             er+felt+this+uncomfortable+AI+black+box+code 200   
+[10/20/26 07:39:08] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:09] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:15] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Plex2Shell%20Plex%20
+                             CVE%20exploited%20cryptominer%20September%202026   
+                             200                                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Plex2She
+                             ll+Plex+CVE+exploited+cryptominer+September+2026&li
+                             mit=1 200                                          
+                    INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=Plex2Shell+Plex+C
+                             VE+exploited+cryptominer+September+2026&source=web'
+                             , 429,                                             
+                             'https://search.brave.com/search?q=Plex2Shell+Plex+
+                             CVE+exploited+cryptominer+September+2026&source=web
+                             ', 'Too Many Requests')")                          
+                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=Plex2Shell+Plex+CVE
+                             +exploited+cryptominer+September+2026', 403,       
+                             'https://www.mojeek.com/search?q=Plex2Shell+Plex+CV
+                             E+exploited+cryptominer+September+2026',           
+                             'Forbidden')")                                     
+[10/20/26 07:39:16] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Plex2Shell+Ple
+                             x+CVE+exploited+cryptominer+September+2026&web=1&se
+                             archid=3852884 200                                 
+[10/20/26 07:39:17] INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Plex%20security%20ad
+                             visory%20upgrade%20cryptominer%20home%20server%20co
+                             mpromise%202026 200                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Plex+sec
+                             urity+advisory+upgrade+cryptominer+home+server+comp
+                             romise+2026&limit=1 200                            
+                    INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=QalcZe89FQ8UqB
+                             FX7nAa5sOK;_ylu=4CW9PquqCbVGfrCYYBaOLJrg19U1gVimsjc
+                             Adpu5tlmL6bo?p=Plex+security+advisory+upgrade+crypt
+                             ominer+home+server+compromise+2026 200             
+[10/20/26 07:39:25] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:34] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:35] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:37] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:41] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
                     INFO     response:                                          
                              https://grokipedia.com/api/typeahead?query=DeepSeek
-                             +AI+company+and+products&limit=1 200               
+                             +Huawei+AI+chip+design+The+Information+2026&limit=1
+                              200                                               
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=DeepSeek%20Huawei%20
+                             AI%20chip%20design%20The%20Information%202026 200  
+                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
+                             HTTPError('HTTP 403 Forbidden for URL:             
+                             https://www.mojeek.com/search?q=DeepSeek+Huawei+AI+
+                             chip+design+The+Information+2026', 403,            
+                             'https://www.mojeek.com/search?q=DeepSeek+Huawei+AI
+                             +chip+design+The+Information+2026', 'Forbidden')") 
+                    INFO     Error in engine brave: DDGSException("HTTPError:   
+                             HTTPError('HTTP 429 Too Many Requests for URL:     
+                             https://search.brave.com/search?q=DeepSeek+Huawei+A
+                             I+chip+design+The+Information+2026&source=web',    
+                             429,                                               
+                             'https://search.brave.com/search?q=DeepSeek+Huawei+
+                             AI+chip+design+The+Information+2026&source=web',   
+                             'Too Many Requests')")                             
+                    INFO     HTTP Request: POST                                 
+                             https://html.duckduckgo.com/html/ "HTTP/2 202      
+                             Accepted"                                          
+[10/20/26 07:39:42] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=tg3cRD4foD3-f0
+                             TZtSFSzMUW;_ylu=l7hYrPySrgn4BoE20oP4qw-YZAIYnbrKx9n
+                             nJ4cEADp8JcA?p=DeepSeek+Huawei+AI+chip+design+The+I
+                             nformation+2026 200                                
+[10/20/26 07:39:46] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:53] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:39:55] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:40:09] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:40:11] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:40:18] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+                    INFO     response:                                          
+                             https://grokipedia.com/api/typeahead?query=Anthropi
+                             c+confidential+SEC+filing+IPO+valuation+range+2026+
+                             revenue&limit=1 200                                
+                    INFO     response:                                          
+                             https://en.wikipedia.org/w/api.php?action=opensearc
+                             h&profile=fuzzy&limit=1&search=Anthropic%20confiden
+                             tial%20SEC%20filing%20IPO%20valuation%20range%20202
+                             6%20revenue 200                                    
                     INFO     Error in engine google: DDGSException("HTTPError:  
                              HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=DeepSeek+AI+company
-                             +and+products&filter=1&start=0&hl=en-US&lr=lang_en&
-                             cr=countryUS', 403,                                
-                             'https://www.google.com/search?q=DeepSeek+AI+compan
-                             y+and+products&filter=1&start=0&hl=en-US&lr=lang_en
-                             &cr=countryUS', 'Forbidden')")                     
-[10/19/26 22:06:43] INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=2B1GHlyo08Emfb
-                             _pYaGJsdEb;_ylu=gvNuJqs-fLU9wNkaPt_EFxufapE62KqlnQD
-                             n0rXfI8EZJvg?p=DeepSeek+AI+company+and+products 200
-[10/19/26 22:06:44] INFO     response:                                          
+                             https://www.google.com/search?q=Anthropic+confident
+                             ial+SEC+filing+IPO+valuation+range+2026+revenue&fil
+                             ter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',   
+                             403,                                               
+                             'https://www.google.com/search?q=Anthropic+confiden
+                             tial+SEC+filing+IPO+valuation+range+2026+revenue&fi
+                             lter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',  
+                             'Forbidden')")                                     
+[10/20/26 07:40:19] INFO     response:                                          
+                             https://yandex.com/search/site/?text=Anthropic+conf
+                             idential+SEC+filing+IPO+valuation+range+2026+revenu
+                             e&web=1&searchid=3710953 200                       
+                    INFO     response:                                          
                              https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=US%20government%20re
-                             strictions%20on%20DeepSeek 200                     
+                             h&profile=fuzzy&limit=1&search=US%20IPO%20count%202
+                             026%20down%2033%25%20Renaissance%20Capital%20SpaceX
+                             %20OpenAI%20postponements 200                      
                     INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=US+gover
-                             nment+restrictions+on+DeepSeek&limit=1 200         
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=u8fGiQqFjKR8Pr
-                             aXd0J2FeKx;_ylu=Ump7Bi5OpPU8Uepv_qy4VDEL4OrJEvI-nJu
-                             egCfPcVjYvjE?p=US+government+restrictions+on+DeepSe
-                             ek 200                                             
-[10/19/26 22:09:03] INFO     HTTP Request: POST                                 
+                             https://grokipedia.com/api/typeahead?query=US+IPO+c
+                             ount+2026+down+33%25+Renaissance+Capital+SpaceX+Ope
+                             nAI+postponements&limit=1 200                      
+[10/20/26 07:40:20] INFO     response:                                          
+                             https://search.yahoo.com/search;_ylt=VgD5sci0OKETep
+                             zLbN4emqFD;_ylu=4ghzUwaS5iX3_N4_QKglKAmMxrk5Rcz0JVW
+                             fnhym1Nz2UDc?p=US+IPO+count+2026+down+33%25+Renaiss
+                             ance+Capital+SpaceX+OpenAI+postponements 200       
+                    INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
-[10/19/26 22:09:17] INFO     HTTP Request: POST                                 
+[10/20/26 07:40:25] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:40:49] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:40:52] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:41:02] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
+                             OK"                                                
+[10/20/26 07:41:08] INFO     HTTP Request: POST                                 
                              https://api.claudehub.fun/v1/messages "HTTP/1.1 200
                              OK"                                                
 
-   Enriched 12/14 items
-   Skipped 2 items after enrichment failed: hackernews:story:50152307, 
-telegram:zaihuapd:44525
+   Enriched 13/13 items
 
 💾 Saved RU summary to: 
-/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-19-ru.md
+/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-20-ru.md
 
 📄 Copied RU summary to GitHub Pages: 
-/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-19-summary-ru.md
+/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-20-summary-ru.md
 
 ✅ Horizon completed successfully!
 
-🧮 Token usage this run: 200957 tokens (input: 124251, output: 76706)
-   • anthropic: 200957 tokens (in: 124251, out: 76706)
+🧮 Token usage this run: 168198 tokens (input: 107803, output: 60395)
+   • anthropic: 168198 tokens (in: 107803, out: 60395)
