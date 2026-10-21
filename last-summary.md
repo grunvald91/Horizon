@@ -1,294 +1,128 @@
-# Horizon — новости дня - 2026-10-20
+# Horizon — новости дня - 2026-10-21
 
-> Из 39 материалов отобрано 13 важных
+> Из 43 материалов отобрано 9 важных
 
 ---
 
 **Технологические новости**
-1. [МВБ США исключило DeepSeek из гражданских закупок](#item-tech-news-1) ⭐️ 8.0/10
-2. [Вышел OpenBSD 8.0](#item-tech-news-2) ⭐️ 7.0/10
-3. [Скрытые инструкции для моделей на страницах справки WhatsApp](#item-tech-news-3) ⭐️ 7.0/10
-4. [Дрон с одним мотором вместо автомата перекоса](#item-tech-news-4) ⭐️ 7.0/10
-5. [Wine портирован на OpenBSD](#item-tech-news-5) ⭐️ 7.0/10
-6. [Mac.apk: Android-приложения на Mac с Apple Silicon](#item-tech-news-6) ⭐️ 7.0/10
-7. [Как выпускать код ИИ без понимания каждой строки](#item-tech-news-7) ⭐️ 7.0/10
-8. [Уязвимости Plex используют для установки майнеров](#item-tech-news-8) ⭐️ 7.0/10
-9. [DeepSeek участвует в проектировании будущих ИИ-чипов Huawei](#item-tech-news-9) ⭐️ 7.0/10
+1. [Upcoming critical PHP security release \(CVE-2026-109618 / -109619\)](#item-tech-news-1) ⭐️ 8.0/10
+2. [eMudhra intermediate CA compromise](#item-tech-news-2) ⭐️ 8.0/10
+3. [Google open-sources TorchTPU, a native PyTorch back end for TPUs](#item-tech-news-3) ⭐️ 8.0/10
+4. [DeepInfer: High-performance inference framework for DeepSeek models](#item-tech-news-4) ⭐️ 8.0/10
+5. [Tsrs: A Port of TypeScript to Rust](#item-tech-news-5) ⭐️ 8.0/10
+6. [eMudhra Intermediate CA Compromise](#item-tech-news-6) ⭐️ 8.0/10
+7. [The Future of CSS](#item-tech-news-7) ⭐️ 7.0/10
 
 **Технологические блоги**
-1. [Точные области поддерживают ради технологий, а не искусства](#item-tech-blog-1) ⭐️ 5.0/10
+1. [Announcing Humming: Fast, Flexible Kernels for Quantized Inference](#item-tech-blog-1) ⭐️ 8.0/10
 
 **Финансовые новости**
-1. [В Бангкоке главы финансов назвали долг и искусственный интеллект главными рисками](#item-finance-news-1) ⭐️ 7.0/10
-2. [Anthropic остаётся главным кандидатом на крупное размещение акций в 2026 году](#item-finance-news-2) ⭐️ 7.0/10
-3. [JPMorgan вложил 5 млрд долларов в оборонные стартапы за первый год](#item-finance-news-3) ⭐️ 7.0/10
+1. [Stocks making the biggest moves after hours: Super Micro Computer, Intuitive Surgical, Netflix, SpaceX &amp; more](#item-finance-news-1) ⭐️ 7.0/10
 
 ---
 
 ## Технологические новости
 
 <a id="item-tech-news-1"></a>
-### [МВБ США исключило DeepSeek из гражданских закупок](https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information) ⭐️ 8.0/10
+### [Upcoming critical PHP security release \(CVE-2026-109618 / -109619\)](https://news-web.php.net/php.announce/509) ⭐️ 8.0/10
 
-Министерство внутренней безопасности США издало приказ на основании Закона о безопасности цепочки поставок федеральных закупок. Информационные продукты и услуги компании Hangzhou DeepSeek и связанных с ней лиц исключаются из закупок федеральных гражданских органов исполнительной власти. Ведомства должны удалить эти продукты из своих информационных систем, а также сторонние продукты и услуги, реализованные с использованием DeepSeek. Ранее сходные ограничения уже действовали в Министерстве обороны и разведывательном сообществе.
+PHP is preparing emergency releases for CVE-2026-109618 and CVE-2026-109619 amid reports that a severe exploit is already circulating.
 
-telegram · zaihuapd · Oct 19, 13:32
+hackernews · xd · Oct 20, 20:15 · [Обсуждение](https://news.ycombinator.com/item?id=50172041)
 
-**Предыстория:** Закон о безопасности цепочки поставок федеральных закупок позволяет исключать информационные продукты и услуги из закупок федеральных ведомств при рисках для цепочки поставок. До приказа Министерства внутренней безопасности аналогичные ограничения на использование DeepSeek уже действовали в Министерстве обороны и разведывательном сообществе.
-
-**Последствия:** Гражданским федеральным органам придётся проверить закупки и действующие системы и убрать не только прямые продукты DeepSeek, но и сторонние решения, которые на них опираются. Это сужает допустимые варианты развёртывания таких моделей в гражданском аппарате исполнительной власти.
-
-**Обсуждение:** В комментариях спорят, касается ли удаление только программ, напрямую использующих модели DeepSeek, или также кода и библиотек, написанных с их помощью; при широком толковании запрет затронул бы очень многое, поскольку открытые веса DeepSeek широко применяются. Другие считают риск для самостоятельно размещаемых открытых весов неясным и отмечают, что такие веса хотя бы можно проверить, в отличие от закрытых сервисов вывода американских поставщиков; это мнения, а не установленные факты приказа.
-
-**Теги**: `#AI policy`, `#DeepSeek`, `#US government`, `#supply chain security`, `#federal procurement`
+**Теги**: `#PHP`, `#security`, `#CVE`, `#remote code execution`, `#web`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Вышел OpenBSD 8.0](https://www.openbsd.org/80.html) ⭐️ 7.0/10
+### [eMudhra intermediate CA compromise](https://emudhra.we-have-a-problem.com/) ⭐️ 8.0/10
 
-Проект OpenBSD опубликовал выпуск 8.0. В доступном материале нет перечня конкретных новых возможностей, изменений совместимости или измеренных результатов: внимание сосредоточено на нумерации и на устойчивости обновления. Переход с линейки 7.x на 8.0 в обсуждении трактуют скорее как очередную смену номера, а не как заявленный перелом в устройстве системы.
+eMudhra intermediate CA certificates were treated as compromised after a key-generation flaw reportedly produced trivially weak ECC private keys, prompting rapid browser revocation.
 
-hackernews · privong · Oct 20, 02:06 · [Обсуждение](https://news.ycombinator.com/item?id=50160494)
+hackernews · galadran · Oct 20, 13:58 · [Обсуждение](https://news.ycombinator.com/item?id=50166579)
 
-**Нумерация выпусков:** У OpenBSD номер версии состоит из двух частей, и переход с серии 7.x на 8.0 сам по себе не объясняет масштаб изменений: в обсуждении прямо спрашивают, крупнее ли этот шаг, чем переход с 7.8 на 7.9, или старший номер просто сменяется после версии x.9. Состав конкретных изменений в доступных материалах не приведён, поэтому 8.0 здесь выглядит как очередной выпуск, а не как описанный перелом в развитии системы.
-
-**Последствия для пользователей:** По сообщениям пользователей, установку можно довести с OpenBSD 7.6 до 8.0 последовательными обновлениями через sysupgrade и syspatch без переустановки: система продолжает работать, в том числе на ноутбуке Lenovo 2012 года. При этом проект обычно выпускает обновления безопасности только для двух последних версий, поэтому более старые установки со временем остаются без сопровождения.
-
-**Обсуждение:** Участники спрашивают, означает ли шаг с 7.x до 8.0 более крупное обновление, чем переход внутри седьмой линейки, или номер просто переключается после выпуска x.9. Отдельно сообщают о многолетней повседневной работе и об успешном последовательном обновлении ноутбука Lenovo с 7.6 до 8.0 через sysupgrade и syspatch; это опыт отдельных пользователей, а не независимая проверка выпуска.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://nxdomain.no/~peter/openbsd_installed_now_for_the_daily_tasks.html">You Have Installed OpenBSD . Now For The Daily Tasks.</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#OpenBSD`, `#operating systems`, `#security`, `#open source`, `#release`
+**Теги**: `#PKI`, `#TLS`, `#certificate-authority`, `#cryptography`, `#web-security`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [Скрытые инструкции для моделей на страницах справки WhatsApp](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) ⭐️ 7.0/10
+### [Google open-sources TorchTPU, a native PyTorch back end for TPUs](https://github.com/google-pytorch/torch_tpu) ⭐️ 8.0/10
 
-На страницах справки WhatsApp обнаружили скрытые инструкции для языковых моделей: помощникам предписывалось не рекомендовать обращаться в органы по защите данных и к сходным способам защиты прав пользователя. По разбору, те же указания отводили модели от советов удалить учётную запись и от похожих рекомендаций. Это не объявленная возможность продукта, а найденный текст на публичных страницах, способный незаметно менять ответы помощников.
+Google open-sourced TorchTPU, a native PyTorch backend for TPUs, giving PyTorch users first-party TPU support.
 
-hackernews · ds · Oct 19, 23:22 · [Обсуждение](https://news.ycombinator.com/item?id=50159341)
+hackernews · ilreb · Oct 20, 16:40 · [Обсуждение](https://news.ycombinator.com/item?id=50169053)
 
-**Скрытые указания на страницах:** Языковые ассистенты нередко читают публичные справочные страницы и включают их текст в контекст ответа. Если часть этого текста скрыта от человека стилями или служебной разметкой, модель всё равно может воспринять её как инструкцию и изменить совет — такой приём называют непрямой инъекцией промпта.
-
-**Последствия:** Пользователь, который спрашивает помощника о правах на данные или об удалении учётной записи WhatsApp, может получить ответ, из которого заранее исключены обращение к регулятору и близкие варианты.
-
-**Обсуждение:** bicepjai считает объяснение «ошибкой» снисходительным, а gruez передаёт слова представителя WhatsApp изданию WIRED: текст якобы попал на страницы из-за уже исправленной ошибки, а чат-боты поддержки не должны давать юридических советов; по мнению gruez, другие скрытые фрагменты это отчасти подтверждают. AlexanderHanff пишет, что при проверке ста крупнейших англоязычных сайтов 1–3 октября 2026 года такого приёма не нашёл, но заметил использование программного интерфейса искусственного интеллекта Google Chrome для отслеживания и снятия цифровых отпечатков; eknkc считает явные инструкции в разметке справки допустимыми, а matt3210 сомневается, что это была ошибка, и спрашивает, где проходит граница с внедрением инструкций.
-
-**Теги**: `#AI assistants`, `#hidden instructions`, `#WhatsApp`, `#privacy`, `#tech industry`
+**Теги**: `#PyTorch`, `#TPU`, `#open source`, `#machine learning`, `#Google`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Дрон с одним мотором вместо автомата перекоса](https://www.youtube.com/watch?v=Ndftcft6XhU) ⭐️ 7.0/10
+### [DeepInfer: High-performance inference framework for DeepSeek models](https://github.com/deepseek-ai/DeepInfer) ⭐️ 8.0/10
 
-Автор показал самодельный дрон с единственным мотором, который меняет направление полёта, модулируя крутящий момент несущего винта. Вместо обычного вертолётного автомата перекоса используются специальный шарнир и магнитный датчик угла. Это личная демонстрация управления при недостатке приводов, а не серийный аппарат и не независимо подтверждённый научный результат.
+DeepSeek published DeepInfer, an open-source high-performance inference framework for its models, drawing heavy discussion of claimed production-scale throughput and economics.
 
-hackernews · hakonjdjohnsen · Oct 19, 09:05 · [Обсуждение](https://news.ycombinator.com/item?id=50150089)
+hackernews · ggcr · Oct 20, 09:08 · [Обсуждение](https://news.ycombinator.com/item?id=50163277)
 
-**Контекст:** Обычному вертолёту автомат перекоса нужен, чтобы циклически менять угол атаки лопастей, а мультикоптеру для ориентации — несколько моторов: с одним винтом управляемый полёт на практике почти невозможен. В этой самоделке вместо автомата перекоса используются шарнир винта и быстрые изменения скорости вращения, согласованные с механическим углом ротора.
-
-**Ограничение:** В воздухе корпус начинает вращаться, поэтому схема менее практична, чем вариант с отдельным хвостовым мотором. Механика ротора проще, но сложность переносится в систему управления.
-
-**Обсуждение:** Комментаторы отмечают, что в радиоуправляемом пилотаже уже применяют винты изменяемого шага, а в сообществе BattleBots есть роботы с одним мотором, способные двигаться за счёт управления его скоростью. Ролик связывают с Joshua Bird, автором четырёхосевого 3D-принтера; шарнир хвалят за простоту, но считают двухмоторную схему с хвостовым винтом практичнее.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://hackaday.com/2026/10/17/building-a-flying-drone-with-a-single-propeller/">Building A Flying Drone With A Single Propeller - Hackaday</a></li>
-<li><a href="https://tech.yahoo.com/cameras/articles/engineer-builds-tiny-3d-printed-103000814.html">Engineer builds tiny 3D-printed single-motor drone in their ...</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#robotics`, `#drones`, `#underactuated systems`, `#hardware`, `#control systems`
+**Теги**: `#deepseek`, `#llm-inference`, `#open-source`, `#model-serving`, `#ai-systems`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [Wine портирован на OpenBSD](https://marc.info/?l=openbsd-ports&amp;m=179236125692175) ⭐️ 7.0/10
+### [Tsrs: A Port of TypeScript to Rust](https://blog.cloudflare.com/typescript-rust-port/) ⭐️ 8.0/10
 
-Слой совместимости с Windows Wine портирован на OpenBSD. В списке рассылки портов обсуждают изменения, нужные именно этой системе, и то, какая часть работы может попасть в основной проект Wine. Автор порта сомневается, что многое примут выше по цепочке: часть правок технически могла бы работать и на других системах, но он пометил их как относящиеся только к OpenBSD, чтобы упростить работу и явно отделить изменения. Заглушки для регистра %gs не собираются в Linux, где этот регистр уже настроен верно, а сигнал SIGUSR1 на других системах возможен, но работает менее оптимально.
+Cloudflare&\#x27;s tsrs project ports the TypeScript compiler to Rust for a lighter WASM runtime and reports speed gains that the TypeScript team is studying for TS 7.1.
 
-hackernews · iamnothere · Oct 19, 13:35 · [Обсуждение](https://news.ycombinator.com/item?id=50152307)
+hackernews · hnisjafx40 · Oct 20, 13:18 · [Обсуждение](https://news.ycombinator.com/item?id=50165953)
 
-**Контекст:** Wine — слой совместимости: он переводит вызовы интерфейса программирования Windows, чтобы программы для Windows работали в Unix-подобных системах без полноценной виртуальной машины. В OpenBSD сторонние программы обычно ставят готовыми пакетами, которые собирают из дерева портов, а не собирают вручную из исходных текстов.
-
-**Что это значит:** Пользователи OpenBSD получают порт Wine, но автор сомневается, что значительная часть правок войдёт в основную ветку: изменения специально помечены как относящиеся только к OpenBSD. Поддержку, скорее всего, придётся вести в дереве портов, а не рассчитывать на слияние с Wine.
-
-**Обсуждение:** В комментариях передают оценку автора: значительная часть правок вряд ли вольётся в основную ветку, поскольку они намеренно ограничены OpenBSD. Отдельно высказывают мнение, что порт особенно уместен, если рассматривать OpenBSD как убежище от небрежного кода; это точка зрения участников, а не установленный факт о самом порте.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://www.openbsd.org/faq/faq15.html">OpenBSD FAQ: Package Management</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#wine`, `#openbsd`, `#ports`, `#compatibility-layer`, `#open-source`
+**Теги**: `#TypeScript`, `#Rust`, `#compilers`, `#WebAssembly`, `#performance`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [Mac.apk: Android-приложения на Mac с Apple Silicon](https://github.com/kksimp/Mac.apk) ⭐️ 7.0/10
+### [eMudhra Intermediate CA Compromise](https://simonwillison.net/2026/Oct/20/emudhra-certificates/) ⭐️ 8.0/10
 
-Проект Mac.apk с открытым исходным кодом заявляет, что запускает приложения Android на компьютерах Mac с Apple Silicon без эмулятора, виртуальной машины и слоя Linux. Это заявка сообщества, а не подтверждённая платформенная возможность Apple или Google. Практические ограничения уже названы: зависимость многих приложений от Google Play Services и хранение данных приложения внутри пакета .app, а не в стандартном каталоге Application Support.
+Simon Willison flags a compromise of eMudhra intermediate CA private keys trusted by major root programs, requiring certificate-bundle updates across operating systems and Python tooling.
 
-hackernews · flocked · Oct 19, 16:45 · [Обсуждение](https://news.ycombinator.com/item?id=50154624)
+rss · Simon Willison · Oct 20, 23:50
 
-**Предпосылка:** Приложения Android на компьютерах Mac обычно запускали через эмулятор, виртуальную машину или промежуточный слой Linux, поскольку среда Android не входит в macOS. Проект Mac.apk, в материалах также названный MacDroid, опирается на общую архитектуру ARM у Apple Silicon и типичных устройств Android: по описанию разработчика пакеты APK исполняются как обычные процессы macOS на полной скорости процессора и рисуют через графический процессор Mac, без эмулятора.
-
-**Последствия:** Для пользователей Mac это может упростить запуск отдельных приложений Android, но приложения, завязанные на сервисы Google, останутся ограниченными, а данные внутри пакета .app усложнят резервное копирование и обновление по сравнению с обычным размещением в Application Support.
-
-**Обсуждение:** В комментариях отмечают, что зависимости от Google Play Services снижают практическую пользу, а хранение данных внутри файла .app называют спорным: авторы объясняют это тем, что ничего не разбрасывается по домашней папке, но критики считают это ложной альтернативой обычному каталогу Application Support. Отдельно жалуются на узнаваемый стиль формулировок, похожий на текст языковых моделей, в описании проекта.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://github.com/kksimp/Mac.apk-Releases">GitHub - kksimp / Mac . apk -Releases: MacDroid: Run Android apps ...</a></li>
-<li><a href="https://linustechtips.com/topic/1643272-need-beta-testers-built-a-way-to-run-android-apps-natively-on-apple-silicon-macs/">Need Beta testers. Built a way to run Android apps natively on Apple ...</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#android`, `#macos`, `#apple-silicon`, `#compatibility`, `#open-source`
+**Теги**: `#security`, `#pki`, `#certificates`, `#tls`, `#software-updates`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [Как выпускать код ИИ без понимания каждой строки](https://news.ycombinator.com/item?id=50151036) ⭐️ 7.0/10
+### [The Future of CSS](https://www.joshwcomeau.com/css/interop-2027/) ⭐️ 7.0/10
 
-На Hacker News инженер rzk спросил, как выпускать код, написанный языковой моделью, если автор не разбирает каждую строку. Поводом стал пост инженера Meta Али Хами: код ощущается как чёрный ящик, высокий уровень системы понятен, а детали — нет, и построчная проверка не успевает за темпом выпуска. Это обсуждение практик, а не новый стандарт и не измеренный результат.
+Josh Comeau outlines upcoming CSS capabilities tied to the Interop 2027 cross-browser compatibility effort.
 
-hackernews · rzk · Oct 19, 11:24
+hackernews · soheilpro · Oct 21, 01:47 · [Обсуждение](https://news.ycombinator.com/item?id=50175070)
 
-**Откуда взялся вопрос:** Обсуждение на Hacker News началось с публикации инженера Meta Али Хами: он писал, что код, который он теперь выпускает с помощью ИИ, ощущается как «чёрный ящик» — общая схема понятна, а каждая деталь уже нет, и построчная проверка не успевает за темпом поставки. В других своих записях он утверждал, что за три месяца в Meta не написал вручную ни одной строки, но выпустил больше кода, чем за весь предыдущий год, и описывал свою роль как руководство генерацией, а не как самостоятельное написание.
-
-**Практический вывод:** Для инженеров, которые уже выпускают сгенерированный код, тред смещает акцент ревью: дизайн и абстракции остаются у человека, а проверку усиливают тестами вместо попытки прочитать каждую строку.
-
-**Обсуждение:** bitwizeshift и jedberg советуют не отдавать модели проектирование: человек задаёт иерархию абстракций, а модель заполняет реализацию, как младший инженер. ChrisMarshallNY и spacedcowboy делают упор на более плотное тестирование — интерактивные проверки, большие наборы тестов и реальные программы перед выпуском — и отличают это от слепого доверия.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-meta-and-i-never-felt-share-7517317918666211328-7C8N">I&#x27;m an engineer at Meta and I never felt this uncomfortable ...</a></li>
-<li><a href="https://ca.linkedin.com/in/ali-hamie">Ali Hamie - Software Engineer @ Meta | LinkedIn From Coding to Directing: Leveraging AI in ... - LinkedIn From Code to AI Management: Evolving Software Engineer Role Meta Engineers Now Direct AI Code Generation | Ali Hamie ... Code Review Evolves: From Syntax to Intent | Ali Hamie posted ... At Meta, I’m watching software engineering change in real ...</a></li>
-<li><a href="https://www.linkedin.com/posts/ali-hamie_in-the-past-3-months-at-meta-i-havent-written-activity-7443757855276716032-hrCH">From Coding to Directing: Leveraging AI in ... - LinkedIn</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#ai-coding`, `#software-engineering`, `#llm`, `#code-review`, `#hacker-news`
-
----
-
-<a id="item-tech-news-8"></a>
-### [Уязвимости Plex используют для установки майнеров](http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html) ⭐️ 7.0/10
-
-Уязвимости медиасервера Plex уже эксплуатируют на практике: на скомпрометированные домашние серверы устанавливают программы для майнинга криптовалюты и другие вредоносные нагрузки. Пользователи сообщают о заражении устаревших установок, в том числе версий примерно тринадцатимесячной давности, после пропущенного письма с призывом обновиться от 1 сентября. В обсуждении упоминают демонстрационный эксплойт Plex2Shell, который, по словам комментаторов, связывает несколько уязвимостей с идентификаторами CVE.
-
-hackernews · mindracer · Oct 19, 13:36 · [Обсуждение](https://news.ycombinator.com/item?id=50152321)
-
-**Контекст:** Plex — медиасервер, который часто работает на домашних компьютерах и бывает доступен из интернета. По сообщениям в обсуждении, атаку питает доказательство концепции Plex2Shell: языковая модель связала несколько уязвимостей, и через них на устаревшие установки доставляют вредоносные нагрузки.
-
-**Что делать владельцам:** Владельцам устаревших или доступных из сети экземпляров Plex Media Server грозит установка майнера XMRig и программ обратного прокси через цепочку Plex2Shell из четырёх уязвимостей, которую начали применять после публикации доказательства концепции. Таким серверам нужно срочно установить обновление, а уже заражённый узел нельзя считать безопасным, если удалён только видимый процесс майнера.
-
-**Обсуждение:** Пострадавшие описывают процессы с именами вроде «mylovelyminer» и «icloud-services», которые занимали процессор почти полностью; отдельно упоминают и другие нагрузки, включая узел для атак типа «отказ в обслуживании». Часть комментаторов считает, что удалить видимый майнер недостаточно: по их мнению, машине после взлома доверять нельзя, диск следует стереть и установить систему заново, поскольку злоумышленники могли забрать токены и другие данные.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html">Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and ...</a></li>
-<li><a href="https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/">Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy ...</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#security`, `#plex`, `#vulnerability`, `#cryptominer`, `#incident-response`
-
----
-
-<a id="item-tech-news-9"></a>
-### [DeepSeek участвует в проектировании будущих ИИ-чипов Huawei](https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia) ⭐️ 7.0/10
-
-По данным The Information со ссылкой на осведомлённых лиц, DeepSeek тесно сотрудничает с Huawei в проектировании будущих чипов для искусственного интеллекта. Инженеры Huawei давно работают в офисе DeepSeek и включают в конструкцию её замечания по вычислениям моделей и передаче данных между процессорами; речь идёт о чипах, которые планируют выпустить в 2027 году и позже. Это сотрудничество выходит за рамки обычного общения поставщика и заказчика и, по оценке источника, может снизить зависимость Китая от технологий Nvidia при создании передовых моделей. При этом DeepSeek не отказывается от Nvidia и по-прежнему стремится получить её передовые процессоры. Сообщение в Telegram вторично и не подтверждает выпуск готового изделия.
-
-telegram · zaihuapd · Oct 20, 05:10
-
-**Предыстория:** Из-за ограничений США на поставки передовых процессоров Nvidia китайские разработчики моделей ищут отечественные альтернативы. 4 сентября 2026 года The Information со ссылкой на Bloomberg сообщала, что DeepSeek планирует установить не менее 160 тысяч ИИ-чипов Huawei в центре обработки данных во Внутренней Монголии, чтобы снизить зависимость от кремния Nvidia.
-
-**Последствия:** Для разработчиков моделей в Китае это означает, что чипы Huawei после 2026 года могут лучше учитывать потребности DeepSeek в вычислениях и обмене данными между процессорами, но пока это не замена оборудованию Nvidia: сама DeepSeek продолжает его искать.
-
-<details><summary>Ссылки</summary>
-<ul>
-<li><a href="https://www.theinformation.com/briefings/deepseek-plans-major-huawei-chip-order-new-ai-data-center">DeepSeek Plans Major Huawei Chip Order in New AI Data Center</a></li>
-
-</ul>
-</details>
-
-**Теги**: `#AI chips`, `#Huawei`, `#DeepSeek`, `#Nvidia`, `#semiconductors`
+**Теги**: `#CSS`, `#Web Platform`, `#Browser Interoperability`, `#Frontend`, `#Interop`
 
 ---
 
 ## Технологические блоги
 
 <a id="item-tech-blog-1"></a>
-### [Точные области поддерживают ради технологий, а не искусства](https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art/) ⭐️ 5.0/10
+### [Announcing Humming: Fast, Flexible Kernels for Quantized Inference](https://vllm.ai/blog/2026-10-21-humming) ⭐️ 8.0/10
 
-rss · Sean Goedecke · Oct 20, 00:00
+Humming is a vLLM-integrated JIT kernel library that unifies many weight/activation quantization schemes and GPU generations behind shared components, with measured GEMM and MoE speedups over existing kernels.
 
-**Фон:** Некоторые считают, что большие языковые модели не следует применять в программировании и математике, потому что эти области по сути являются искусством. Шон Гёдеке признаёт красоту программ и доказательств, но считает такой довод неубедительным для людей вне профессии.
+rss · vLLM Blog · Oct 21, 00:00
 
-**Аргумент:** По его описанию, широкая публика ценит математику и программирование не как созерцание бесконечного, а как опору медицины, транспорта и телефонов и потому готова поддерживать исследования и высокие зарплаты инженеров. Искусство она примет лишь постольку, поскольку творческие озарения продвигают знания; отказ от моделей ради «радости создания» воспримет как обман — словно ремонтник кухни настаивает на ручных инструментах. Работодателям это ещё менее убедительно. Защитникам художественной стороны, пишет автор, нужно показать, что она делает работу эффективнее: изящные абстракции не дают сложности упереться в стену, математический прогресс зависит от новых абстракций, а сильные программы требуют человеческого вдохновения. Сам он в этих тезисах сомневается: в этом году не видел, чтобы созданная моделью кодовая база упёрлась в такую стену, не видит причины, почему модели не могли бы порождать абстракции или вдохновение, и не считает, что великой идее нужен прекрасный код — плесень в доме Fallingwater не лишила его статуса искусства.
-
-**Вывод:** Любой разговор с публикой или работодателями об искусстве, заключает Гёдеке, должен утверждать, что художественная практика делает технический результат сильнее, иначе сторонники уступают главную причину, по которой общество ценит их труд.
-
-**Теги**: `#llms`, `#software-engineering`, `#mathematics`, `#public-perception`, `#rhetoric`
+**Теги**: `#quantized-inference`, `#gpu-kernels`, `#mixture-of-experts`, `#cuda`, `#vllm`
 
 ---
 
 ## Финансовые новости
 
 <a id="item-finance-news-1"></a>
-### [В Бангкоке главы финансов назвали долг и искусственный интеллект главными рисками](https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html) ⭐️ 7.0/10
+### [Stocks making the biggest moves after hours: Super Micro Computer, Intuitive Surgical, Netflix, SpaceX &amp; more](https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-after-hours-isrg-nflx-spcx.html) ⭐️ 7.0/10
 
-На встречах МВФ и Всемирного банка в Бангкоке главы финансовых ведомств назвали главными угрозами мировой экономике государственный долг, искусственный интеллект и торговые дисбалансы, а Китай уже не стоял первым среди опасений. Директор-распорядитель МВФ Кристалина Георгиева заявила, что одного быстрого роста недостаточно для устойчивого пути США при федеральном долге выше 40 трлн долларов; советник министра финансов США Дэвид Зервос это предупреждение отверг.
+After-hours movers included a large Super Micro guidance hike, SpaceX’s revenue surge and early Tesla merger talks, and mixed earnings reactions from Intuitive Surgical, Netflix, Capital One, and United.
 
-rss · CNBC Finance · Oct 20, 05:27
+rss · CNBC Finance · Oct 20, 22:55
 
-**Контекст:** В 2018 году на прошлой азиатской встрече на Бали Китай был в центре споров из-за только начинавшейся торговой войны с США, а теперь, по оценке главы Института международных финансов Тима Адамса, отношения выглядят стабильнее и Китай реже выделяют как особый риск.
-
-**Последствия:** «Большая семёрка» объявила о 260 млн евро \(300 млн долларов\) на ремонт инфраструктуры Чернобыльской АЭС для Украины и рассчитывает довести сумму до 500 млн евро на конференции доноров в Париже в следующем месяце.
-
-**Теги**: `#IMF`, `#global debt`, `#artificial intelligence`, `#G20`, `#Ukraine`
-
----
-
-<a id="item-finance-news-2"></a>
-### [Anthropic остаётся главным кандидатом на крупное размещение акций в 2026 году](https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html) ⭐️ 7.0/10
-
-По сообщению CNBC, Anthropic остаётся главным оставшимся кандидатом на крупное первичное размещение акций в 2026 году: в начале июня компания конфиденциально подала проспект регулятору, тогда как OpenAI отказалась выходить на биржу в этом году, а ряд других размещений отложен. Выручка Anthropic за третий квартал составила 16,8 млрд долларов при более слабом росте к предыдущему кварталу, чем раньше, а пересмотренный диапазон оценки компании при размещении, по словам аналитика 22V Research Довина Петерсона, начинается с 1,5 трлн долларов против прежних ожиданий не менее 2 трлн долларов.
-
-rss · CNBC Finance · Oct 19, 16:42
-
-**Предыстория:** В начале 2026 года инвесторы ждали первичных размещений крупных частных компаний, включая SpaceX, Anthropic и OpenAI, однако OpenAI отказалась выходить на биржу в этом году, а ряд других сделок отложили; Anthropic ещё в начале июня конфиденциально подала проспект в Комиссию по ценным бумагам и биржам США.
-
-**Теги**: `#IPO market`, `#Anthropic`, `#artificial intelligence`, `#equity valuations`, `#prediction markets`
-
----
-
-<a id="item-finance-news-3"></a>
-### [JPMorgan вложил 5 млрд долларов в оборонные стартапы за первый год](https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html) ⭐️ 7.0/10
-
-По заявлению JPMorgan Chase, за первый год инициативы по безопасности и устойчивости США банк вложил 5 млрд долларов в стартапы — быстрее, чем ожидал. Сопрезидент Даг Петно сказал CNBC, что банк может превысить объявленную год назад цель в 10 млрд долларов за десятилетие; среди известных вложений — прямые доли в Hadrian и Castelion.
-
-rss · CNBC Finance · Oct 19, 12:34
-
-**Контекст:** Инициативу год назад создал глава банка Джейми Даймон на фоне войн и торговых споров, которые, по оценке банка, угрожают поставкам для промышленности и обороны США. Hadrian строит автоматизированные заводы деталей для обороны, авиации и судостроения, а Castelion, основанный бывшими инженерами SpaceX, разрабатывает сравнительно недорогую гиперзвуковую ракету Blackbeard; большинство остальных вложений банк пока не раскрыл.
-
-**Теги**: `#JPMorgan Chase`, `#defense investment`, `#venture capital`, `#supply chain resilience`, `#advanced manufacturing`
+**Теги**: `#after-hours trading`, `#corporate earnings`, `#Super Micro Computer`, `#SpaceX`, `#mergers and acquisitions`
 
 ---
 

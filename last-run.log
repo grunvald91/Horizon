@@ -1,400 +1,400 @@
-                             200                                                
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=OpenBSD+8.0+re
-                             lease+notes+October+2026&web=1&searchid=4584961 200
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=WhatsApp+help+
-                             pages+hidden+LLM+instructions+do+not+recommend+data
-                             +protection+regulator&web=1&searchid=1800242 200   
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=OpenBSD+
-                             8.0+sysupgrade+changes+security+features&limit=1   
-                             200                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=OpenBSD%208.0%20sysu
-                             pgrade%20changes%20security%20features 200         
-[10/20/26 07:37:12] INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=OpenBSD+8.0+sysupgr
-                             ade+changes+security+features&filter=1&start=0&hl=e
-                             n-US&lr=lang_en&cr=countryUS', 403,                
-                             'https://www.google.com/search?q=OpenBSD+8.0+sysupg
-                             rade+changes+security+features&filter=1&start=0&hl=
-                             en-US&lr=lang_en&cr=countryUS', 'Forbidden')")     
                     INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/20/26 07:37:13] INFO     response:                                          
-                             https://yandex.com/search/site/?text=OpenBSD+8.0+sy
-                             supgrade+changes+security+features&web=1&searchid=9
-                             742254 200                                         
-[10/20/26 07:37:29] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.977000       
+                             seconds                                            
                     INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:37:38] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:37:42] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:37:55] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:07] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:08] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Joshua%20Bird%20one%
-                             20motor%20drone%20magnetic%20encoder%20hinge%20torq
-                             ue%20modulation 200                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Joshua+B
-                             ird+one+motor+drone+magnetic+encoder+hinge+torque+m
-                             odulation&limit=1 200                              
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.857634       
+                             seconds                                            
+[10/21/26 07:46:40] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
                     INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/20/26 07:38:09] INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=Joshua+Bird+one+mot
-                             or+drone+magnetic+encoder+hinge+torque+modulation&f
-                             ilter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS', 
-                             403,                                               
-                             'https://www.google.com/search?q=Joshua+Bird+one+mo
-                             tor+drone+magnetic+encoder+hinge+torque+modulation&
-                             filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',
-                              'Forbidden')")                                    
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=Joshua+Bird+one+m
-                             otor+drone+magnetic+encoder+hinge+torque+modulation
-                             &source=web', 429,                                 
-                             'https://search.brave.com/search?q=Joshua+Bird+one+
-                             motor+drone+magnetic+encoder+hinge+torque+modulatio
-                             n&source=web', 'Too Many Requests')")              
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=Kv4FV7OlScmk1E
-                             mnvGAxnY9Y;_ylu=2nAge9NVlPqkYeaEootmQfCoCh4ZIKZrn_G
-                             L4e91PSiRmTU?p=Joshua+Bird+one+motor+drone+magnetic
-                             +encoder+hinge+torque+modulation 200               
-[10/20/26 07:38:14] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Wine+por
-                             ted+to+OpenBSD+openbsd-ports+Frohwein+2026&limit=1 
-                             200                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Wine%20ported%20to%2
-                             0OpenBSD%20openbsd-ports%20Frohwein%202026 200     
-[10/20/26 07:38:15] INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=Wine+ported+to+Op
-                             enBSD+openbsd-ports+Frohwein+2026&source=web', 429,
-                             'https://search.brave.com/search?q=Wine+ported+to+O
-                             penBSD+openbsd-ports+Frohwein+2026&source=web',    
-                             'Too Many Requests')")                             
-[10/20/26 07:38:16] INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=Wine+ported+to+Open
-                             BSD+openbsd-ports+Frohwein+2026&filter=1&start=0&hl
-                             =en-US&lr=lang_en&cr=countryUS', 403,              
-                             'https://www.google.com/search?q=Wine+ported+to+Ope
-                             nBSD+openbsd-ports+Frohwein+2026&filter=1&start=0&h
-                             l=en-US&lr=lang_en&cr=countryUS', 'Forbidden')")   
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Wine+ported+to+Open
-                             BSD+openbsd-ports+Frohwein+2026', 403,             
-                             'https://www.mojeek.com/search?q=Wine+ported+to+Ope
-                             nBSD+openbsd-ports+Frohwein+2026', 'Forbidden')")  
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
                     INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/20/26 07:38:17] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Wine+ported+to
-                             +OpenBSD+openbsd-ports+Frohwein+2026&web=1&searchid
-                             =9866391 200                                       
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Wine%20OpenBSD%20ups
-                             tream%20merge%20prospects%20%25gs%20SIGUSR1 200    
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Wine+Ope
-                             nBSD+upstream+merge+prospects+%25gs+SIGUSR1&limit=1
-                              200                                               
-[10/20/26 07:38:18] INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Wine+OpenBSD+upstre
-                             am+merge+prospects+%25gs+SIGUSR1', 403,            
-                             'https://www.mojeek.com/search?q=Wine+OpenBSD+upstr
-                             eam+merge+prospects+%25gs+SIGUSR1', 'Forbidden')") 
-[10/20/26 07:38:19] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Wine+OpenBSD+u
-                             pstream+merge+prospects+%25gs+SIGUSR1&web=1&searchi
-                             d=2713887 200                                      
-[10/20/26 07:38:32] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:39] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:46] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:48] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:53] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Mac.apk%20kksimp%20A
-                             ndroid%20apps%20native%20Apple%20Silicon%20GitHub  
-                             200                                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Mac.apk+
-                             kksimp+Android+apps+native+Apple+Silicon+GitHub&lim
-                             it=1 200                                           
-[10/20/26 07:38:54] INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=Mac.apk+kksimp+An
-                             droid+apps+native+Apple+Silicon+GitHub&source=web',
-                              429,                                              
-                             'https://search.brave.com/search?q=Mac.apk+kksimp+A
-                             ndroid+apps+native+Apple+Silicon+GitHub&source=web'
-                             , 'Too Many Requests')")                           
-                    INFO     response:                                          
-                             https://yandex.com/search/site/?text=Mac.apk+kksimp
-                             +Android+apps+native+Apple+Silicon+GitHub&web=1&sea
-                             rchid=7276425 200                                  
-[10/20/26 07:38:56] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:38:58] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Ali%20Hamie%20Meta%2
-                             0engineer%20LinkedIn%20never%20felt%20this%20uncomf
-                             ortable%20AI%20black%20box%20code 200              
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Ali+Hami
-                             e+Meta+engineer+LinkedIn+never+felt+this+uncomforta
-                             ble+AI+black+box+code&limit=1 200                  
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Ali+Hamie+Meta+engi
-                             neer+LinkedIn+never+felt+this+uncomfortable+AI+blac
-                             k+box+code', 403,                                  
-                             'https://www.mojeek.com/search?q=Ali+Hamie+Meta+eng
-                             ineer+LinkedIn+never+felt+this+uncomfortable+AI+bla
-                             ck+box+code', 'Forbidden')")                       
-[10/20/26 07:38:59] INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=Ali+Hamie+Meta+engi
-                             neer+LinkedIn+never+felt+this+uncomfortable+AI+blac
-                             k+box+code&filter=1&start=0&hl=en-US&lr=lang_en&cr=
-                             countryUS', 403,                                   
-                             'https://www.google.com/search?q=Ali+Hamie+Meta+eng
-                             ineer+LinkedIn+never+felt+this+uncomfortable+AI+bla
-                             ck+box+code&filter=1&start=0&hl=en-US&lr=lang_en&cr
-                             =countryUS', 'Forbidden')")                        
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=ViG65rwG-98b4R
-                             HGRbPnFaIr;_ylu=728GGL2F_uC7NlLEZ_7dR44vTQlukDzb294
-                             R_C9iR7lSekY?p=Ali+Hamie+Meta+engineer+LinkedIn+nev
-                             er+felt+this+uncomfortable+AI+black+box+code 200   
-[10/20/26 07:39:08] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:09] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:15] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Plex2Shell%20Plex%20
-                             CVE%20exploited%20cryptominer%20September%202026   
-                             200                                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Plex2She
-                             ll+Plex+CVE+exploited+cryptominer+September+2026&li
-                             mit=1 200                                          
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=Plex2Shell+Plex+C
-                             VE+exploited+cryptominer+September+2026&source=web'
-                             , 429,                                             
-                             'https://search.brave.com/search?q=Plex2Shell+Plex+
-                             CVE+exploited+cryptominer+September+2026&source=web
-                             ', 'Too Many Requests')")                          
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=Plex2Shell+Plex+CVE
-                             +exploited+cryptominer+September+2026', 403,       
-                             'https://www.mojeek.com/search?q=Plex2Shell+Plex+CV
-                             E+exploited+cryptominer+September+2026',           
-                             'Forbidden')")                                     
-[10/20/26 07:39:16] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Plex2Shell+Ple
-                             x+CVE+exploited+cryptominer+September+2026&web=1&se
-                             archid=3852884 200                                 
-[10/20/26 07:39:17] INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Plex%20security%20ad
-                             visory%20upgrade%20cryptominer%20home%20server%20co
-                             mpromise%202026 200                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Plex+sec
-                             urity+advisory+upgrade+cryptominer+home+server+comp
-                             romise+2026&limit=1 200                            
-                    INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=QalcZe89FQ8UqB
-                             FX7nAa5sOK;_ylu=4CW9PquqCbVGfrCYYBaOLJrg19U1gVimsjc
-                             Adpu5tlmL6bo?p=Plex+security+advisory+upgrade+crypt
-                             ominer+home+server+compromise+2026 200             
-[10/20/26 07:39:25] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:34] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:35] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:37] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:41] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=DeepSeek
-                             +Huawei+AI+chip+design+The+Information+2026&limit=1
-                              200                                               
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=DeepSeek%20Huawei%20
-                             AI%20chip%20design%20The%20Information%202026 200  
-                    INFO     Error in engine mojeek: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.mojeek.com/search?q=DeepSeek+Huawei+AI+
-                             chip+design+The+Information+2026', 403,            
-                             'https://www.mojeek.com/search?q=DeepSeek+Huawei+AI
-                             +chip+design+The+Information+2026', 'Forbidden')") 
-                    INFO     Error in engine brave: DDGSException("HTTPError:   
-                             HTTPError('HTTP 429 Too Many Requests for URL:     
-                             https://search.brave.com/search?q=DeepSeek+Huawei+A
-                             I+chip+design+The+Information+2026&source=web',    
-                             429,                                               
-                             'https://search.brave.com/search?q=DeepSeek+Huawei+
-                             AI+chip+design+The+Information+2026&source=web',   
-                             'Too Many Requests')")                             
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:42] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.486738       
+                             seconds                                            
                     INFO     HTTP Request: POST                                 
-                             https://html.duckduckgo.com/html/ "HTTP/2 202      
-                             Accepted"                                          
-[10/20/26 07:39:42] INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=tg3cRD4foD3-f0
-                             TZtSFSzMUW;_ylu=l7hYrPySrgn4BoE20oP4qw-YZAIYnbrKx9n
-                             nJ4cEADp8JcA?p=DeepSeek+Huawei+AI+chip+design+The+I
-                             nformation+2026 200                                
-[10/20/26 07:39:46] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:53] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:39:55] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:09] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:11] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:18] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=Anthropi
-                             c+confidential+SEC+filing+IPO+valuation+range+2026+
-                             revenue&limit=1 200                                
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=Anthropic%20confiden
-                             tial%20SEC%20filing%20IPO%20valuation%20range%20202
-                             6%20revenue 200                                    
-                    INFO     Error in engine google: DDGSException("HTTPError:  
-                             HTTPError('HTTP 403 Forbidden for URL:             
-                             https://www.google.com/search?q=Anthropic+confident
-                             ial+SEC+filing+IPO+valuation+range+2026+revenue&fil
-                             ter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',   
-                             403,                                               
-                             'https://www.google.com/search?q=Anthropic+confiden
-                             tial+SEC+filing+IPO+valuation+range+2026+revenue&fi
-                             lter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS',  
-                             'Forbidden')")                                     
-[10/20/26 07:40:19] INFO     response:                                          
-                             https://yandex.com/search/site/?text=Anthropic+conf
-                             idential+SEC+filing+IPO+valuation+range+2026+revenu
-                             e&web=1&searchid=3710953 200                       
-                    INFO     response:                                          
-                             https://en.wikipedia.org/w/api.php?action=opensearc
-                             h&profile=fuzzy&limit=1&search=US%20IPO%20count%202
-                             026%20down%2033%25%20Renaissance%20Capital%20SpaceX
-                             %20OpenAI%20postponements 200                      
-                    INFO     response:                                          
-                             https://grokipedia.com/api/typeahead?query=US+IPO+c
-                             ount+2026+down+33%25+Renaissance+Capital+SpaceX+Ope
-                             nAI+postponements&limit=1 200                      
-[10/20/26 07:40:20] INFO     response:                                          
-                             https://search.yahoo.com/search;_ylt=VgD5sci0OKETep
-                             zLbN4emqFD;_ylu=4ghzUwaS5iX3_N4_QKglKAmMxrk5Rcz0JVW
-                             fnhym1Nz2UDc?p=US+IPO+count+2026+down+33%25+Renaiss
-                             ance+Capital+SpaceX+OpenAI+postponements 200       
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.487074       
+                             seconds                                            
                     INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:25] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:49] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:40:52] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:41:02] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
-[10/20/26 07:41:08] INFO     HTTP Request: POST                                 
-                             https://api.claudehub.fun/v1/messages "HTTP/1.1 200
-                             OK"                                                
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.489935       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.925144       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.829903       
+                             seconds                                            
+[10/21/26 07:46:43] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.955821       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:44] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:46] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.396617       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.434662       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.468788       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.825255       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.788220       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.996656       
+                             seconds                                            
+[10/21/26 07:46:47] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50169053:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50172041:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.438768       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.476693       
+                             seconds                                            
+[10/21/26 07:46:48] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50166579:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.434663       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.783371       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.840219       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.770764       
+                             seconds                                            
+[10/21/26 07:46:49] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:51] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.394896       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.415006       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.453676       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.965416       
+                             seconds                                            
+[10/21/26 07:46:52] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.958832       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.856993       
+                             seconds                                            
+[10/21/26 07:46:53] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:55] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.465730       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.376457       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.404201       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.957314       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.900269       
+                             seconds                                            
+[10/21/26 07:46:56] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.889251       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50163277:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50165953:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+[10/21/26 07:46:57] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.378790       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.392974       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item                               
+                             rss:simonwillison.net_atom_everything_:4257f838c0d2
+                             2be2: Error code: 429 - {'error': {'message': 'Rate
+                             limit exceeded: 30 requests per minute. Please slow
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.424862       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.940087       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.816853       
+                             seconds                                            
+[10/21/26 07:46:58] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.882570       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:46:59] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:47:00] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.448898       
+                             seconds                                            
+[10/21/26 07:47:01] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.499977       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.438910       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.829036       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.992410       
+                             seconds                                            
+[10/21/26 07:47:02] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.756584       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:47:03] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+[10/21/26 07:47:04] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 502
+                             Bad Gateway"                                       
+                    INFO     Retrying request to /v1/messages in 0.379097       
+                             seconds                                            
+[10/21/26 07:47:05] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.839432       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.441487       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.480862       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.913450       
+                             seconds                                            
+[10/21/26 07:47:06] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item hackernews:story:50175070:    
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    INFO     Retrying request to /v1/messages in 0.757744       
+                             seconds                                            
+                    INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item                               
+                             rss:search.cnbc.com_rs_search_combinedcms_view.xml?
+                             partnerId=wrss01&id=10000664:9b42fd6af4869011:     
+                             Error code: 429 - {'error': {'message': 'Rate limit
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
+[10/21/26 07:47:07] INFO     HTTP Request: POST                                 
+                             https://api.claudehub.fun/v1/messages "HTTP/1.1 429
+                             Too Many Requests"                                 
+                    ERROR    Error enriching item                               
+                             rss:vllm.ai_blog_rss.xml:3e7599c6661c19f5: Error   
+                             code: 429 - {'error': {'message': 'Rate limit      
+                             exceeded: 30 requests per minute. Please slow      
+                             down.', 'type': 'rate_limit_error'}, 'type':       
+                             'error'}                                           
 
-   Enriched 13/13 items
+   Enriched 0/9 items
+   Skipped 9 items after enrichment failed: hackernews:story:50172041, 
+hackernews:story:50166579, hackernews:story:50169053, hackernews:story:50163277,
+hackernews:story:50165953, 
+rss:simonwillison.net_atom_everything_:4257f838c0d22be2, 
+rss:vllm.ai_blog_rss.xml:3e7599c6661c19f5, hackernews:story:50175070, 
+rss:search.cnbc.com_rs_search_combinedcms_view.xml?partnerId=wrss01&id=10000664:
+9b42fd6af4869011
 
 💾 Saved RU summary to: 
-/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-20-ru.md
+/home/runner/work/Horizon/Horizon/data/summaries/horizon-2026-10-21-ru.md
 
 📄 Copied RU summary to GitHub Pages: 
-/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-20-summary-ru.md
+/home/runner/work/Horizon/Horizon/docs/_posts/2026-10-21-summary-ru.md
 
 ✅ Horizon completed successfully!
 
-🧮 Token usage this run: 168198 tokens (input: 107803, output: 60395)
-   • anthropic: 168198 tokens (in: 107803, out: 60395)
+🧮 Token usage this run: 51883 tokens (input: 29506, output: 22377)
+   • anthropic: 51883 tokens (in: 29506, out: 22377)
