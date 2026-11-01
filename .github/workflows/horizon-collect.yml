@@ -2,8 +2,8 @@ name: 1. Horizon — собрать новости
 
 on:
   schedule:
-    # Время в UTC. 02:17 UTC = 05:17 МСК: к 9:00 очередь точно готова, даже если GitHub опоздает.
-    - cron: '17 2 * * *'
+    # Время в UTC. 02:19 UTC = 05:19 МСК: к 9:00 очередь точно готова, даже если GitHub опоздает.
+    - cron: '19 2 * * *'
   workflow_dispatch:
   push:
     branches: [main]
