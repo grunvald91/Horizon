@@ -1,0 +1,14 @@
+name: Horizon Actions diagnostic
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/horizon-actions-diagnostic.yml'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Verify that GitHub Actions starts
+        run: echo "HORIZON_ACTIONS_START_OK"
