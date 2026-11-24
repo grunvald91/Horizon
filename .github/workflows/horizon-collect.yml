@@ -4,10 +4,12 @@ on:
   schedule:
     # Время в UTC. 02:19 UTC = 05:19 МСК: к 9:00 очередь точно готова, даже если GitHub опоздает.
     - cron: '19 2 * * *'
+    # Резервная попытка, если первый запуск пропущен или не завершился.
+    - cron: '49 4 * * *'
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/horizon-collect.yml', 'data/config.telegram.json']   # перезапуск при смене настроек
+    paths: ['.github/workflows/horizon-collect.yml', 'data/config.telegram.json', 'scripts/llm_preflight.py', 'scripts/telegram_post.py']   # перезапуск при смене настроек
 
 concurrency:
   group: horizon-queue        # общий замок с публикацией
@@ -32,12 +34,32 @@ jobs:
           ref: news-queue
           path: queue
 
+      - name: Check whether today's queue already exists
+        id: freshness
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timedelta, timezone
+          today = datetime.now(timezone(timedelta(hours=3))).date().isoformat()
+          try:
+              with open("queue/queue.json", encoding="utf-8") as f:
+                  queue = json.load(f)
+              ready = queue.get("date") == today and isinstance(queue.get("posts"), list)
+          except (OSError, ValueError, AttributeError):
+              ready = False
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"ready={str(ready).lower()}\n")
+          print(f"Queue for {today} already exists: {ready}")
+          PY
+
       - name: Set up Python
+        if: steps.freshness.outputs.ready != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Check API key and model
+        if: steps.freshness.outputs.ready != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # ключ sk-hub-... с claudehub.fun
           # сменить модель: Settings → Secrets and variables → Actions → Variables → HORIZON_MODEL
@@ -45,15 +67,19 @@ jobs:
         run: python3 scripts/llm_preflight.py
 
       - name: Install uv
+        if: steps.freshness.outputs.ready != 'true'
         uses: astral-sh/setup-uv@v6
 
       - name: Install dependencies
+        if: steps.freshness.outputs.ready != 'true'
         run: uv sync
 
       - name: Prepare config
+        if: steps.freshness.outputs.ready != 'true'
         run: cp data/config.telegram.json data/config.json
 
       - name: Run Horizon (сбор и сортировка)
+        if: steps.freshness.outputs.ready != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -61,6 +87,7 @@ jobs:
           uv run horizon --hours 24 -l INFO 2>&1 | tee /tmp/horizon.log
 
       - name: Build today's queue
+        if: steps.freshness.outputs.ready != 'true'
         env:
           DIGEST_LANG: ru
           POST_MODE: items
@@ -75,6 +102,7 @@ jobs:
           tail -n 400 /tmp/horizon.log > queue/last-run.log || true
 
       - name: Save queue
+        if: steps.freshness.outputs.ready != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -85,3 +113,12 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -q -m "Очередь новостей $(date -u +%F)"
           git push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:news-queue
+
+      - name: Preserve diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: horizon-collection-failure
+          path: /tmp/horizon.log
+          if-no-files-found: ignore
+          retention-days: 7
