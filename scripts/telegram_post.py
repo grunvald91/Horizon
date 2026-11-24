@@ -350,22 +350,19 @@ def publish_queue(queue_path: str, chats_path: str) -> int:
     state = sync_chats(chats_path)
     chats: dict = state["chats"]
     if not chats:
-        print("Бот пока не добавлен ни в один чат — публиковать некуда.")
-        return 0
+        print("::error::Нет доступных Telegram-чатов. Проверь права бота и TELEGRAM_CHAT_ID.")
+        return 1
     if not os.path.exists(queue_path):
-        print("Очереди нет — публиковать нечего.")
-        return 0
+        print("::error::Очереди нет — требуется успешный сбор новостей.")
+        return 1
     with open(queue_path, encoding="utf-8") as f:
         queue = json.load(f)
     posts: list[str] = queue.get("posts", [])
     now = datetime.now(MSK)
 
     if queue.get("date") != now.date().isoformat():
-        if posts:
-            print(f"Очередь за {queue.get('date')} устарела, {len(posts)} постов пропускаю.")
-            queue["posts"] = []
-            _save(queue_path, queue)
-        return 0
+        print(f"::error::Очередь за {queue.get('date')} устарела; нужен новый сбор. Старую очередь не удаляю.")
+        return 1
     if not posts:
         print("На сегодня всё опубликовано.")
         return 0
@@ -380,19 +377,30 @@ def publish_queue(queue_path: str, chats_path: str) -> int:
 
     print("Чаты: " + ", ".join(f"{c['title'] or cid}" for cid, c in chats.items()))
 
-    failures = 0
     for _ in range(batch):
-        post = posts.pop(0)
+        post = posts[0]
+        delivered = set(queue.get("delivered_to", []))
         for cid in list(chats):
+            if cid in delivered:
+                continue
             try:
-                failures += not send(post, cid)
+                if send(post, cid):
+                    delivered.add(cid)
+                    queue["delivered_to"] = sorted(delivered)
+                    _save(queue_path, queue)
             except ChatGone as err:
                 print(f"Бот больше не может писать в {chats[cid]['title'] or cid} ({err}) — убираю из списка")
                 chats.pop(cid)
+                _save(chats_path, state)
+        if not chats or any(cid not in delivered for cid in chats):
+            print("::error::Публикация не завершена; новость сохранена для повторной попытки.")
+            return 1
+        posts.pop(0)
         queue["posts"] = posts
-        _save(queue_path, queue)  # сохраняем после каждого поста, чтобы не задвоить при сбое
+        queue.pop("delivered_to", None)
+        _save(queue_path, queue)
         _save(chats_path, state)
-    return 1 if failures else 0
+    return 0
 
 
 def _save(queue_path: str, queue: dict) -> None:
